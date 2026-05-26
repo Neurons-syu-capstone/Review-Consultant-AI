@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI 컨설턴트 | 뉴런스</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:       #0a0b0f;
+    --surface:  #13151c;
+    --card:     #1a1d27;
+    --border:   #252836;
+    --accent:   #6c63ff;
+    --accent2:  #ff6584;
+    --green:    #00d4aa;
+    --yellow:   #ffd166;
+    --red:      #ff4757;
+    --text:     #e8eaf0;
+    --muted:    #6b7280;
+    --radius:   14px;
+  }
+  html { font-family: 'Pretendard', sans-serif; background: var(--bg); color: var(--text); }
+  body { min-height: 100vh; overflow-x: hidden; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--surface); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+  /* 배경 효과 */
+  .bg-glow {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 0; overflow: hidden;
+  }
+  .bg-glow::before {
+    content: '';
+    position: absolute; top: -20%; left: -10%;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(108,99,255,.12) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+  .bg-glow::after {
+    content: '';
+    position: absolute; bottom: -20%; right: -10%;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(0,212,170,.08) 0%, transparent 70%);
+    border-radius: 50%;
+  }
+
+  .app { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  /* 헤더 */
+  .header { margin-bottom: 2.5rem; }
+  .header-tag { font-size: .72rem; font-weight: 700; letter-spacing: .15em; color: var(--accent); text-transform: uppercase; margin-bottom: .5rem; }
+  .header-title { font-size: 2.2rem; font-weight: 900; line-height: 1.1; }
+  .header-title span { background: linear-gradient(135deg, var(--accent), var(--green)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .header-sub { font-size: .88rem; color: var(--muted); margin-top: .5rem; }
+
+  /* 상품 선택 */
+  .search-wrap { position: relative; margin-bottom: 1rem; }
+  .search-wrap input {
+    width: 100%; background: var(--card); border: 1px solid var(--border);
+    color: var(--text); padding: .85rem 1rem .85rem 2.8rem;
+    border-radius: var(--radius); font-size: .9rem; font-family: inherit;
+    outline: none; transition: border-color .2s;
+  }
+  .search-wrap input:focus { border-color: var(--accent); }
+  .search-wrap input::placeholder { color: var(--muted); }
+  .search-icon { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 1rem; }
+  .product-list { max-height: 260px; overflow-y: auto; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); }
+  .product-item {
+    padding: .75rem 1.1rem; cursor: pointer; transition: background .15s;
+    border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: .8rem;
+  }
+  .product-item:last-child { border-bottom: none; }
+  .product-item:hover { background: rgba(108,99,255,.08); }
+  .product-item.active { background: rgba(108,99,255,.15); }
+  .product-item-title { font-size: .84rem; font-weight: 600; }
+  .product-item-meta { font-size: .73rem; color: var(--muted); margin-top: 2px; }
+  .brand-badge {
+    font-size: .68rem; font-weight: 700; padding: 2px 8px; border-radius: 20px;
+    background: rgba(108,99,255,.15); color: var(--accent); white-space: nowrap;
+  }
+
+  /* 선택된 상품 카드 */
+  .selected-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 1.2rem 1.5rem;
+    margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  }
+  .selected-info { flex: 1; min-width: 0; }
+  .selected-title { font-size: 1rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .selected-meta { font-size: .78rem; color: var(--muted); margin-top: 4px; }
+  .score-chips { display: flex; gap: .5rem; flex-wrap: wrap; }
+  .score-chip {
+    display: flex; flex-direction: column; align-items: center;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: .4rem .7rem; min-width: 60px; cursor: pointer;
+    transition: all .2s;
+  }
+  .score-chip:hover { border-color: var(--accent); background: rgba(108,99,255,.08); }
+  .score-chip.selected { border-color: var(--accent); background: rgba(108,99,255,.15); }
+  .score-chip-label { font-size: .65rem; color: var(--muted); font-weight: 600; }
+  .score-chip-val { font-size: .95rem; font-weight: 800; margin-top: 1px; }
+
+  /* 메인 레이아웃 */
+  .main-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+  @media (max-width: 768px) { .main-grid { grid-template-columns: 1fr; } }
+
+  /* 섹션 카드 */
+  .section-card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); overflow: hidden;
+  }
+  .section-header {
+    padding: 1rem 1.3rem; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: .6rem;
+  }
+  .section-icon { font-size: 1.1rem; }
+  .section-title { font-size: .9rem; font-weight: 700; }
+  .section-badge {
+    margin-left: auto; font-size: .68rem; font-weight: 700;
+    padding: 2px 8px; border-radius: 20px;
+    background: rgba(108,99,255,.15); color: var(--accent);
+  }
+  .section-body { padding: 1.2rem 1.3rem; }
+
+  /* 분석 버튼 */
+  .btn-analyze {
+    width: 100%; padding: .9rem; border: none; border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    color: white; font-size: .88rem; font-weight: 700; font-family: inherit;
+    cursor: pointer; transition: opacity .2s, transform .1s;
+    display: flex; align-items: center; justify-content: center; gap: .5rem;
+  }
+  .btn-analyze:hover { opacity: .9; }
+  .btn-analyze:active { transform: scale(.98); }
+  .btn-analyze:disabled { opacity: .4; cursor: not-allowed; }
+  .btn-analyze-secondary {
+    width: 100%; padding: .75rem; border: 1px solid var(--accent); border-radius: 10px;
+    background: transparent; color: var(--accent); font-size: .85rem; font-weight: 700;
+    font-family: inherit; cursor: pointer; transition: background .2s;
+    margin-top: .7rem;
+  }
+  .btn-analyze-secondary:hover { background: rgba(108,99,255,.1); }
+  .btn-analyze-secondary:disabled { opacity: .4; cursor: not-allowed; }
+
+  /* 속성 선택 그리드 */
+  .aspect-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: .5rem; margin-bottom: 1rem; }
+  .aspect-btn {
+    padding: .6rem .4rem; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--surface); color: var(--text); font-family: inherit;
+    font-size: .75rem; font-weight: 600; cursor: pointer; transition: all .2s; text-align: center;
+  }
+  .aspect-btn:hover { border-color: var(--accent); }
+  .aspect-btn.selected { border-color: var(--accent); background: rgba(108,99,255,.15); color: var(--accent); }
+  .aspect-score { font-size: .85rem; font-weight: 800; margin-top: 3px; }
+
+  /* 결과 텍스트 */
+  .result-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1.1rem 1.2rem;
+    font-size: .83rem; line-height: 1.85; white-space: pre-wrap; color: var(--text);
+    min-height: 120px;
+  }
+  .result-meta { display: flex; gap: 1rem; margin-top: .7rem; }
+  .result-meta-item { font-size: .72rem; color: var(--muted); }
+  .result-meta-item span { color: var(--green); font-weight: 600; }
+
+  /* 빈 상태 */
+  .empty-state {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 2.5rem 1rem; color: var(--muted); text-align: center; gap: .7rem;
+  }
+  .empty-icon { font-size: 2.2rem; opacity: .4; }
+  .empty-text { font-size: .83rem; }
+
+  /* 로딩 */
+  .loading-wrap { display: flex; align-items: center; justify-content: center; gap: .7rem; padding: 2rem; }
+  .spinner {
+    width: 22px; height: 22px; border: 2px solid var(--border);
+    border-top-color: var(--accent); border-radius: 50%;
+    animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text { font-size: .83rem; color: var(--muted); }
+
+  /* 에러 */
+  .error-box {
+    background: rgba(255,71,87,.08); border: 1px solid rgba(255,71,87,.3);
+    border-radius: 10px; padding: .9rem 1.1rem; font-size: .82rem; color: var(--red);
+  }
+
+  /* 전체 span */
+  .full-span { grid-column: 1 / -1; }
+
+  /* 색상 헬퍼 */
+  .c-green { color: var(--green); }
+  .c-yellow { color: var(--yellow); }
+  .c-red { color: var(--red); }
+  .c-accent { color: var(--accent); }
+  .c-muted { color: var(--muted); }
+
+  /* 페이드인 */
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  .fade-in { animation: fadeIn .35s ease forwards; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useCallback } = React;
+
+const API = "http://localhost:5000/api";
+
+const CATEGORIES = ["comfort","design","size","durability","price"];
+const CAT_KR     = { comfort:"착용감", design:"디자인", size:"사이즈", durability:"내구성", price:"가격" };
+const CAT_ICON   = { comfort:"🦶", design:"🎨", size:"📏", durability:"🔩", price:"💰" };
+
+function scoreColor(s) {
+  if (s === null || s === undefined) return "c-muted";
+  return s >= 7 ? "c-green" : s >= 4 ? "c-yellow" : "c-red";
+}
+
+// ── 상품 선택 컴포넌트 ────────────────────────────────────────
+function ProductSelector({ products, selected, onSelect }) {
+  const [q, setQ] = useState("");
+  const filtered = products.filter(p =>
+    p.product_title.toLowerCase().includes(q.toLowerCase()) ||
+    p.brand.toLowerCase().includes(q.toLowerCase())
+  ).slice(0, 80);
+
+  return (
+    <div style={{ marginBottom: "1.5rem" }}>
+      <div className="search-wrap">
+        <span className="search-icon">🔍</span>
+        <input
+          value={q}
+          onChange={e => setQ(e.target.value)}
+          placeholder="상품명 또는 브랜드 검색..."
+        />
+      </div>
+      <div className="product-list">
+        {filtered.length === 0
+          ? <div className="empty-state"><span className="empty-text">검색 결과가 없습니다.</span></div>
+          : filtered.map(p => (
+            <div
+              key={p.asin}
+              className={`product-item${selected?.asin === p.asin ? " active" : ""}`}
+              onClick={() => onSelect(p)}
+            >
+              <span className="brand-badge">{p.brand}</span>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div className="product-item-title" style={{ overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>
+                  {p.product_title}
+                </div>
+                <div className="product-item-meta">
+                  ⭐ {p.avg_rating?.toFixed(1)} &nbsp;|&nbsp; 리뷰 {p.review_count?.toLocaleString()}건
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  );
+}
+
+// ── 선택 상품 요약 카드 ────────────────────────────────────────
+function SelectedCard({ product, selectedAspect, onSelectAspect }) {
+  if (!product) return null;
+  return (
+    <div className="selected-card fade-in">
+      <div className="selected-info">
+        <div className="selected-title">{product.product_title}</div>
+        <div className="selected-meta">
+          🏷️ {product.brand} &nbsp;·&nbsp; ⭐ {product.avg_rating?.toFixed(2)} &nbsp;·&nbsp; 리뷰 {product.review_count?.toLocaleString()}건
+        </div>
+      </div>
+      <div className="score-chips">
+        {CATEGORIES.map(cat => {
+          const sc = product[`${cat}_score`];
+          return (
+            <div
+              key={cat}
+              className={`score-chip${selectedAspect === cat ? " selected" : ""}`}
+              onClick={() => onSelectAspect(selectedAspect === cat ? null : cat)}
+            >
+              <span className="score-chip-label">{CAT_KR[cat]}</span>
+              <span className={`score-chip-val ${scoreColor(sc)}`}>
+                {sc != null ? sc.toFixed(1) : "N/A"}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// ── 결과 표시 ─────────────────────────────────────────────────
+function ResultView({ loading, error, data }) {
+  if (loading) return (
+    <div className="loading-wrap">
+      <div className="spinner" />
+      <span className="loading-text">GPT-5.4-mini 분석 중...</span>
+    </div>
+  );
+  if (error) return <div className="error-box">❌ {error}</div>;
+  if (!data)  return (
+    <div className="empty-state">
+      <span className="empty-icon">🤖</span>
+      <span className="empty-text">버튼을 눌러 분석을 시작하세요.</span>
+    </div>
+  );
+  return (
+    <div className="fade-in">
+      <div className="result-box">{data.result}</div>
+      {data.tokens && (
+        <div className="result-meta">
+          <span className="result-meta-item">토큰: <span>{data.tokens.toLocaleString()}</span></span>
+          <span className="result-meta-item">비용: <span>${data.cost}</span></span>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ── 메인 앱 ───────────────────────────────────────────────────
+function App() {
+  const [products,       setProducts]       = useState([]);
+  const [selectedProd,   setSelectedProd]   = useState(null);
+  const [selectedAspect, setSelectedAspect] = useState(null);
+
+  const [overviewLoading, setOverviewLoading] = useState(false);
+  const [overviewError,   setOverviewError]   = useState(null);
+  const [overviewData,    setOverviewData]    = useState(null);
+
+  const [aspectLoading, setAspectLoading] = useState(false);
+  const [aspectError,   setAspectError]   = useState(null);
+  const [aspectData,    setAspectData]    = useState(null);
+
+  // 상품 로드
+  useEffect(() => {
+    fetch(`${API}/products`)
+      .then(r => r.json())
+      .then(setProducts)
+      .catch(e => console.error("상품 로드 실패:", e));
+  }, []);
+
+  // 상품 변경 시 초기화
+  const handleSelectProduct = useCallback(p => {
+    setSelectedProd(p);
+    setSelectedAspect(null);
+    setOverviewData(null);
+    setOverviewError(null);
+    setAspectData(null);
+    setAspectError(null);
+  }, []);
+
+  // 속성 변경 시 속성 결과 초기화
+  const handleSelectAspect = useCallback(cat => {
+    setSelectedAspect(cat);
+    setAspectData(null);
+    setAspectError(null);
+  }, []);
+
+  // 전체 개요 진단
+  const runOverview = async () => {
+    if (!selectedProd) return;
+    setOverviewLoading(true);
+    setOverviewError(null);
+    setOverviewData(null);
+    try {
+      const res  = await fetch(`${API}/diagnose/overview`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ asin: selectedProd.asin }),
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      setOverviewData(data);
+    } catch (e) {
+      setOverviewError(e.message);
+    } finally {
+      setOverviewLoading(false);
+    }
+  };
+
+  // 속성별 상세 진단
+  const runAspect = async () => {
+    if (!selectedProd || !selectedAspect) return;
+    setAspectLoading(true);
+    setAspectError(null);
+    setAspectData(null);
+    try {
+      const res  = await fetch(`${API}/diagnose/aspect`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ asin: selectedProd.asin, category: selectedAspect }),
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      setAspectData(data);
+    } catch (e) {
+      setAspectError(e.message);
+    } finally {
+      setAspectLoading(false);
+    }
+  };
+
+  const weakestAspect = selectedProd
+    ? CATEGORIES.reduce((w, c) => {
+        const s = selectedProd[`${c}_score`];
+        const ws = selectedProd[`${w}_score`];
+        if (s === null || s === undefined) return w;
+        if (ws === null || ws === undefined) return c;
+        return s < ws ? c : w;
+      }, CATEGORIES[0])
+    : null;
+
+  return (
+    <>
+      <div className="bg-glow" />
+      <div className="app">
+        {/* 헤더 */}
+        <div className="header">
+          <div className="header-tag">Neurons Team · AI Consultant</div>
+          <h1 className="header-title">
+            <span>AI 이슈 진단</span> 및<br />실행 처방전
+          </h1>
+          <p className="header-sub">스코어 하락 속성 + 부정 리뷰 → 하락 원인 분석 + 운영 개선 가이드라인</p>
+        </div>
+
+        {/* 상품 선택 */}
+        <ProductSelector
+          products={products}
+          selected={selectedProd}
+          onSelect={handleSelectProduct}
+        />
+
+        {/* 선택된 상품 */}
+        {selectedProd && (
+          <SelectedCard
+            product={selectedProd}
+            selectedAspect={selectedAspect}
+            onSelectAspect={handleSelectAspect}
+          />
+        )}
+
+        {/* 메인 그리드 */}
+        {selectedProd && (
+          <div className="main-grid">
+
+            {/* 왼쪽: 전체 개요 진단 */}
+            <div className="section-card fade-in">
+              <div className="section-header">
+                <span className="section-icon">📋</span>
+                <span className="section-title">전체 개선 사항 개요</span>
+                {overviewData && <span className="section-badge">완료</span>}
+              </div>
+              <div className="section-body">
+                <p style={{ fontSize: ".8rem", color: "var(--muted)", marginBottom: "1rem", lineHeight: 1.6 }}>
+                  모든 속성을 종합하여 가장 시급한 문제와<br />
+                  우선순위별 개선 방향을 한눈에 확인합니다.
+                </p>
+                {weakestAspect && (
+                  <div style={{
+                    background: "var(--surface)", borderRadius: 10,
+                    padding: ".7rem 1rem", marginBottom: "1rem",
+                    borderLeft: `3px solid var(--red)`,
+                  }}>
+                    <div style={{ fontSize: ".72rem", color: "var(--muted)", marginBottom: 3 }}>최저 점수 속성</div>
+                    <div style={{ fontWeight: 700, fontSize: ".9rem" }}>
+                      {CAT_ICON[weakestAspect]} {CAT_KR[weakestAspect]} &nbsp;
+                      <span className="c-red">{selectedProd[`${weakestAspect}_score`]?.toFixed(1)}점</span>
+                    </div>
+                  </div>
+                )}
+                <button
+                  className="btn-analyze"
+                  onClick={runOverview}
+                  disabled={overviewLoading}
+                >
+                  {overviewLoading ? <><div className="spinner" style={{ width:16, height:16, marginRight:0 }} /> 분석 중...</> : "🔍 전체 개요 분석 실행"}
+                </button>
+                <div style={{ marginTop: "1.2rem" }}>
+                  <ResultView loading={overviewLoading} error={overviewError} data={overviewData} />
+                </div>
+              </div>
+            </div>
+
+            {/* 오른쪽: 속성별 상세 진단 */}
+            <div className="section-card fade-in">
+              <div className="section-header">
+                <span className="section-icon">🔬</span>
+                <span className="section-title">속성별 상세 진단</span>
+                {selectedAspect && (
+                  <span className="section-badge">{CAT_ICON[selectedAspect]} {CAT_KR[selectedAspect]}</span>
+                )}
+              </div>
+              <div className="section-body">
+                <p style={{ fontSize: ".8rem", color: "var(--muted)", marginBottom: ".8rem" }}>
+                  위 점수 카드에서 속성을 선택하거나 아래에서 직접 선택하세요.
+                </p>
+
+                {/* 속성 선택 버튼 */}
+                <div className="aspect-grid">
+                  {CATEGORIES.map(cat => {
+                    const sc = selectedProd[`${cat}_score`];
+                    return (
+                      <button
+                        key={cat}
+                        className={`aspect-btn${selectedAspect === cat ? " selected" : ""}`}
+                        onClick={() => handleSelectAspect(selectedAspect === cat ? null : cat)}
+                      >
+                        <div>{CAT_ICON[cat]}</div>
+                        <div>{CAT_KR[cat]}</div>
+                        <div className={`aspect-score ${scoreColor(sc)}`}>
+                          {sc != null ? sc.toFixed(1) : "N/A"}
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {selectedAspect ? (
+                  <>
+                    {/* 선택 속성 현황 */}
+                    <div style={{
+                      display: "flex", gap: ".8rem",
+                      background: "var(--surface)", borderRadius: 10,
+                      padding: ".7rem 1rem", marginBottom: "1rem",
+                    }}>
+                      {["pos","neg"].map(t => {
+                        const n = selectedProd[`${selectedAspect}_${t}_count`] || 0;
+                        return (
+                          <div key={t} style={{ flex: 1, textAlign: "center" }}>
+                            <div style={{ fontSize: ".7rem", color: "var(--muted)" }}>{t === "pos" ? "👍 긍정" : "👎 부정"}</div>
+                            <div style={{ fontWeight: 800, color: t === "pos" ? "var(--green)" : "var(--red)" }}>{n}</div>
+                          </div>
+                        );
+                      })}
+                      <div style={{ flex: 1, textAlign: "center" }}>
+                        <div style={{ fontSize: ".7rem", color: "var(--muted)" }}>점수</div>
+                        <div className={`aspect-score ${scoreColor(selectedProd[`${selectedAspect}_score`])}`}>
+                          {selectedProd[`${selectedAspect}_score`]?.toFixed(1)}
+                        </div>
+                      </div>
+                    </div>
+
+                    <button
+                      className="btn-analyze"
+                      onClick={runAspect}
+                      disabled={aspectLoading}
+                    >
+                      {aspectLoading
+                        ? <><div className="spinner" style={{ width:16, height:16, marginRight:0 }} /> 분석 중...</>
+                        : `🔬 ${CAT_KR[selectedAspect]} 상세 진단 실행`}
+                    </button>
+                  </>
+                ) : (
+                  <div className="empty-state" style={{ padding: "1.5rem 1rem" }}>
+                    <span className="empty-icon">👆</span>
+                    <span className="empty-text">속성을 선택하면 상세 진단이 가능합니다.</span>
+                  </div>
+                )}
+
+                <div style={{ marginTop: "1.2rem" }}>
+                  <ResultView loading={aspectLoading} error={aspectError} data={aspectData} />
+                </div>
+              </div>
+            </div>
+
+          </div>
+        )}
+
+        {/* 상품 미선택 안내 */}
+        {!selectedProd && (
+          <div className="section-card fade-in">
+            <div className="empty-state" style={{ padding: "4rem 2rem" }}>
+              <span className="empty-icon">👟</span>
+              <span className="empty-text" style={{ fontSize: ".95rem" }}>
+                위 검색창에서 분석할 상품을 선택하세요.
+              </span>
+            </div>
+          </div>
+        )}
+
+        {/* 푸터 */}
+        <div style={{ textAlign: "center", marginTop: "3rem", fontSize: ".72rem", color: "var(--muted)" }}>
+          🔬 뉴런스 팀 · 2026-1 인공지능 종합 설계 캡스톤디자인 · GPT-5.4-mini
+        </div>
+      </div>
+    </>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

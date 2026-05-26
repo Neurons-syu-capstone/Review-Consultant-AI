@@ -1,25 +1,22 @@
+# API 키 (절대 업로드 금지)
+.env
+
 # 가상환경
 venv/
 .venv/
+__pycache__/
+*.pyc
 
-# 대용량 데이터 파일 (별도 준비 필요)
+# 대용량 데이터
 shoes_data/shoes_reviews_cleaned.json
 shoes_data/shoes_reviews_cleaned.parquet
-
-# 체크포인트 (임시 파일)
 shoes_data/*_checkpoint.json
-shoes_data/*.tmp
 
-# Python 캐시
-__pycache__/
-*.py[cod]
-*.pyo
-
-# VS Code
-.vscode/
+# Node
+node_modules/
+build/
+dist/
 
 # OS
 .DS_Store
 Thumbs.db
-
-echo "API Key.txt" >> .gitignore
