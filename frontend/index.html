@@ -301,7 +301,42 @@ function SelectedCard({ product, selectedAspect, onSelectAspect }) {
   );
 }
 
-// ── 결과 표시 ─────────────────────────────────────────────────
+// ── 결과 파싱 & 렌더링 ───────────────────────────────────────
+const SECTION_ICONS = {
+  "⚡": { color: "#ff4757", size: "1rem",  weight: 800 },
+  "📋": { color: "#6c63ff", size: ".95rem", weight: 700 },
+  "💊": { color: "#00d4aa", size: ".95rem", weight: 700 },
+  "📊": { color: "#ffd166", size: ".95rem", weight: 700 },
+  "🔍": { color: "#6c63ff", size: ".95rem", weight: 700 },
+};
+
+function parseResult(text) {
+  // ** 마크다운 강조 제거
+  text = text.replace(/\*\*(.+?)\*\*/g, "$1").replace(/\*(.+?)\*/g, "$1");
+  const lines  = text.split("\n");
+  const blocks = [];
+  let cur      = null;
+
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) {
+      if (cur) { blocks.push(cur); cur = null; }
+      continue;
+    }
+    const icon = Object.keys(SECTION_ICONS).find(ic => line.startsWith(ic));
+    if (icon) {
+      if (cur) blocks.push(cur);
+      cur = { icon, title: line, body: [] };
+    } else if (cur) {
+      cur.body.push(line);
+    } else {
+      blocks.push({ icon: null, title: null, body: [line] });
+    }
+  }
+  if (cur) blocks.push(cur);
+  return blocks;
+}
+
 function ResultView({ loading, error, data }) {
   if (loading) return (
     <div className="loading-wrap">
@@ -316,11 +351,56 @@ function ResultView({ loading, error, data }) {
       <span className="empty-text">버튼을 눌러 분석을 시작하세요.</span>
     </div>
   );
+
+  const blocks = parseResult(data.result);
+
   return (
     <div className="fade-in">
-      <div className="result-box">{data.result}</div>
+      <div style={{ display:"flex", flexDirection:"column", gap:".9rem" }}>
+        {blocks.map((block, i) => {
+          const style = block.icon ? SECTION_ICONS[block.icon] : null;
+          return (
+            <div key={i} style={{
+              background: "var(--surface)",
+              border: `1px solid ${style ? style.color + "33" : "var(--border)"}`,
+              borderLeft: style ? `3px solid ${style.color}` : "1px solid var(--border)",
+              borderRadius: 10,
+              padding: ".85rem 1.1rem",
+            }}>
+              {block.title && (
+                <div style={{
+                  fontSize: style?.size || ".88rem",
+                  fontWeight: style?.weight || 600,
+                  color: style?.color || "var(--text)",
+                  marginBottom: block.body.length ? ".55rem" : 0,
+                  lineHeight: 1.4,
+                }}>
+                  {block.title}
+                </div>
+              )}
+              {block.body.map((line, j) => {
+                const isNumbered = /^\d+\./.test(line);
+                const isRank     = /^\d+위:/.test(line);
+                const isDash     = line.startsWith("-");
+                return (
+                  <div key={j} style={{
+                    fontSize: ".82rem",
+                    color: isNumbered || isRank ? "var(--text)" : isDash ? "var(--muted)" : "var(--text)",
+                    lineHeight: 1.75,
+                    paddingLeft: isDash ? ".5rem" : 0,
+                    fontWeight: isNumbered || isRank ? 600 : 400,
+                    marginTop: isNumbered ? ".25rem" : 0,
+                  }}>
+                    {line}
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })}
+      </div>
       {data.tokens && (
-        <div className="result-meta">
+        <div className="result-meta" style={{ marginTop: ".7rem" }}>
           <span className="result-meta-item">토큰: <span>{data.tokens.toLocaleString()}</span></span>
           <span className="result-meta-item">비용: <span>${data.cost}</span></span>
         </div>
