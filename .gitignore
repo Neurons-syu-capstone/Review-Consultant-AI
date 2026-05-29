@@ -1,0 +1,22 @@
+# API 키 (절대 업로드 금지)
+.env
+
+# 가상환경
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 대용량 데이터
+shoes_data/shoes_reviews_cleaned.json
+shoes_data/shoes_reviews_cleaned.parquet
+shoes_data/*_checkpoint.json
+
+# Node
+node_modules/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3802 @@
+{
+  "B000M5CRC2": {
+    "brand": "Nike",
+    "product_title": "Nike Mens Free Rn 2018 Running Shoe",
+    "avg_rating": 4.01,
+    "review_count": 173,
+    "scores": {
+      "comfort": {
+        "score": 8.98,
+        "count": 128,
+        "pos_count": 115,
+        "neg_count": 13
+      },
+      "design": {
+        "score": 7.59,
+        "count": 29,
+        "pos_count": 22,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 3.12,
+        "count": 48,
+        "pos_count": 15,
+        "neg_count": 33
+      },
+      "durability": {
+        "score": 3.92,
+        "count": 51,
+        "pos_count": 20,
+        "neg_count": 31
+      },
+      "price": {
+        "score": 8.0,
+        "count": 5,
+        "pos_count": 4,
+        "neg_count": 1
+      }
+    }
+  },
+  "B002DRIWJ4": {
+    "brand": "Nike",
+    "product_title": "Nike Women's Running Shoes",
+    "avg_rating": 4.26,
+    "review_count": 176,
+    "scores": {
+      "comfort": {
+        "score": 8.12,
+        "count": 133,
+        "pos_count": 108,
+        "neg_count": 25
+      },
+      "design": {
+        "score": 8.73,
+        "count": 63,
+        "pos_count": 55,
+        "neg_count": 8
+      },
+      "size": {
+        "score": 5.56,
+        "count": 63,
+        "pos_count": 35,
+        "neg_count": 28
+      },
+      "durability": {
+        "score": 6.0,
+        "count": 30,
+        "pos_count": 18,
+        "neg_count": 12
+      },
+      "price": {
+        "score": 3.5,
+        "count": 20,
+        "pos_count": 7,
+        "neg_count": 13
+      }
+    }
+  },
+  "B0035FC8M0": {
+    "brand": "KEEN",
+    "product_title": "KEEN Men's Newport H2 Closed Toe Water Sandals, Camo/Olive Drab, 9",
+    "avg_rating": 3.68,
+    "review_count": 360,
+    "scores": {
+      "comfort": {
+        "score": 8.26,
+        "count": 207,
+        "pos_count": 171,
+        "neg_count": 36
+      },
+      "design": {
+        "score": 8.83,
+        "count": 60,
+        "pos_count": 53,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 3.13,
+        "count": 163,
+        "pos_count": 51,
+        "neg_count": 112
+      },
+      "durability": {
+        "score": 4.08,
+        "count": 174,
+        "pos_count": 71,
+        "neg_count": 103
+      },
+      "price": {
+        "score": 3.94,
+        "count": 33,
+        "pos_count": 13,
+        "neg_count": 20
+      }
+    }
+  },
+  "B005O65HKI": {
+    "brand": "Merrell",
+    "product_title": "Merrell Men's Encore Gust Slip-On Shoe",
+    "avg_rating": 4.44,
+    "review_count": 241,
+    "scores": {
+      "comfort": {
+        "score": 8.4,
+        "count": 175,
+        "pos_count": 147,
+        "neg_count": 28
+      },
+      "design": {
+        "score": 7.93,
+        "count": 29,
+        "pos_count": 23,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 4.58,
+        "count": 83,
+        "pos_count": 38,
+        "neg_count": 45
+      },
+      "durability": {
+        "score": 6.41,
+        "count": 78,
+        "pos_count": 50,
+        "neg_count": 28
+      },
+      "price": {
+        "score": 6.0,
+        "count": 15,
+        "pos_count": 9,
+        "neg_count": 6
+      }
+    }
+  },
+  "B003O2SLXY": {
+    "brand": "KEEN",
+    "product_title": "KEEN Women's Newport H2 Sandal",
+    "avg_rating": 3.97,
+    "review_count": 337,
+    "scores": {
+      "comfort": {
+        "score": 7.36,
+        "count": 235,
+        "pos_count": 173,
+        "neg_count": 62
+      },
+      "design": {
+        "score": 8.99,
+        "count": 99,
+        "pos_count": 89,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 3.52,
+        "count": 193,
+        "pos_count": 68,
+        "neg_count": 125
+      },
+      "durability": {
+        "score": 6.12,
+        "count": 103,
+        "pos_count": 63,
+        "neg_count": 40
+      },
+      "price": {
+        "score": 4.44,
+        "count": 18,
+        "pos_count": 8,
+        "neg_count": 10
+      }
+    }
+  },
+  "B008JE8WUY": {
+    "brand": "KEEN",
+    "product_title": "KEEN Women's Rose Casual Closed Toe Sandals",
+    "avg_rating": 4.08,
+    "review_count": 357,
+    "scores": {
+      "comfort": {
+        "score": 7.98,
+        "count": 282,
+        "pos_count": 225,
+        "neg_count": 57
+      },
+      "design": {
+        "score": 9.04,
+        "count": 94,
+        "pos_count": 85,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 3.46,
+        "count": 162,
+        "pos_count": 56,
+        "neg_count": 106
+      },
+      "durability": {
+        "score": 5.78,
+        "count": 83,
+        "pos_count": 48,
+        "neg_count": 35
+      },
+      "price": {
+        "score": 6.67,
+        "count": 21,
+        "pos_count": 14,
+        "neg_count": 7
+      }
+    }
+  },
+  "B00D7IDIP6": {
+    "brand": "Merrell",
+    "product_title": "Merrell Men's Jungle Moc Slip-On Shoe",
+    "avg_rating": 3.82,
+    "review_count": 345,
+    "scores": {
+      "comfort": {
+        "score": 7.39,
+        "count": 261,
+        "pos_count": 193,
+        "neg_count": 68
+      },
+      "design": {
+        "score": 7.27,
+        "count": 55,
+        "pos_count": 40,
+        "neg_count": 15
+      },
+      "size": {
+        "score": 3.63,
+        "count": 135,
+        "pos_count": 49,
+        "neg_count": 86
+      },
+      "durability": {
+        "score": 5.11,
+        "count": 139,
+        "pos_count": 71,
+        "neg_count": 68
+      },
+      "price": {
+        "score": 6.96,
+        "count": 23,
+        "pos_count": 16,
+        "neg_count": 7
+      }
+    }
+  },
+  "B00DJSRER2": {
+    "brand": "Skechers",
+    "product_title": "Skechers Men's Afterburn Memory-Foam Lace-up Sneaker",
+    "avg_rating": 3.12,
+    "review_count": 315,
+    "scores": {
+      "comfort": {
+        "score": 6.88,
+        "count": 240,
+        "pos_count": 165,
+        "neg_count": 75
+      },
+      "design": {
+        "score": 8.57,
+        "count": 35,
+        "pos_count": 30,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 5.32,
+        "count": 79,
+        "pos_count": 42,
+        "neg_count": 37
+      },
+      "durability": {
+        "score": 2.11,
+        "count": 199,
+        "pos_count": 42,
+        "neg_count": 157
+      },
+      "price": {
+        "score": 6.05,
+        "count": 38,
+        "pos_count": 23,
+        "neg_count": 15
+      }
+    }
+  },
+  "B00KBOJ4DE": {
+    "brand": "Clarks",
+    "product_title": "Clarks Womens Slipper Suede Leather Knitted Collar Clog Slippers - Plush Faux Fur Lining",
+    "avg_rating": 3.69,
+    "review_count": 307,
+    "scores": {
+      "comfort": {
+        "score": 7.68,
+        "count": 246,
+        "pos_count": 189,
+        "neg_count": 57
+      },
+      "design": {
+        "score": 8.52,
+        "count": 54,
+        "pos_count": 46,
+        "neg_count": 8
+      },
+      "size": {
+        "score": 4.38,
+        "count": 130,
+        "pos_count": 57,
+        "neg_count": 73
+      },
+      "durability": {
+        "score": 3.78,
+        "count": 119,
+        "pos_count": 45,
+        "neg_count": 74
+      },
+      "price": {
+        "score": 4.8,
+        "count": 25,
+        "pos_count": 12,
+        "neg_count": 13
+      }
+    }
+  },
+  "B00L86XJCQ": {
+    "brand": "KEEN",
+    "product_title": "KEEN Little Kid (4-8 Years) Newport H2 Hawaiian Blue/Green Glow Sandal - 2 M US Little Kid",
+    "avg_rating": 4.41,
+    "review_count": 326,
+    "scores": {
+      "comfort": {
+        "score": 8.72,
+        "count": 179,
+        "pos_count": 156,
+        "neg_count": 23
+      },
+      "design": {
+        "score": 9.15,
+        "count": 82,
+        "pos_count": 75,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 5.55,
+        "count": 128,
+        "pos_count": 71,
+        "neg_count": 57
+      },
+      "durability": {
+        "score": 8.11,
+        "count": 169,
+        "pos_count": 137,
+        "neg_count": 32
+      },
+      "price": {
+        "score": 7.5,
+        "count": 36,
+        "pos_count": 27,
+        "neg_count": 9
+      }
+    }
+  },
+  "B00NXZ0HQ6": {
+    "brand": "Skechers",
+    "product_title": "Skechers for Work Women's Workshire Peril Steel Toe Boot",
+    "avg_rating": 3.76,
+    "review_count": 329,
+    "scores": {
+      "comfort": {
+        "score": 5.98,
+        "count": 341,
+        "pos_count": 204,
+        "neg_count": 137
+      },
+      "design": {
+        "score": 9.03,
+        "count": 31,
+        "pos_count": 28,
+        "neg_count": 3
+      },
+      "size": {
+        "score": 3.89,
+        "count": 126,
+        "pos_count": 49,
+        "neg_count": 77
+      },
+      "durability": {
+        "score": 5.1,
+        "count": 100,
+        "pos_count": 51,
+        "neg_count": 49
+      },
+      "price": {
+        "score": 6.15,
+        "count": 26,
+        "pos_count": 16,
+        "neg_count": 10
+      }
+    }
+  },
+  "B00UOWREB2": {
+    "brand": "Skechers",
+    "product_title": "Skechers Men's Afterburn M. Fit Wonted Loafer",
+    "avg_rating": 3.87,
+    "review_count": 314,
+    "scores": {
+      "comfort": {
+        "score": 7.88,
+        "count": 226,
+        "pos_count": 178,
+        "neg_count": 48
+      },
+      "design": {
+        "score": 9.04,
+        "count": 52,
+        "pos_count": 47,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 5.55,
+        "count": 128,
+        "pos_count": 71,
+        "neg_count": 57
+      },
+      "durability": {
+        "score": 3.14,
+        "count": 121,
+        "pos_count": 38,
+        "neg_count": 83
+      },
+      "price": {
+        "score": 7.04,
+        "count": 27,
+        "pos_count": 19,
+        "neg_count": 8
+      }
+    }
+  },
+  "B016P9A6GM": {
+    "brand": "Skechers",
+    "product_title": "Skechers Sport Women's D'Lites Slip-On Mule Sneaker",
+    "avg_rating": 4.29,
+    "review_count": 320,
+    "scores": {
+      "comfort": {
+        "score": 8.51,
+        "count": 255,
+        "pos_count": 217,
+        "neg_count": 38
+      },
+      "design": {
+        "score": 8.89,
+        "count": 63,
+        "pos_count": 56,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 4.79,
+        "count": 167,
+        "pos_count": 80,
+        "neg_count": 87
+      },
+      "durability": {
+        "score": 6.21,
+        "count": 58,
+        "pos_count": 36,
+        "neg_count": 22
+      },
+      "price": {
+        "score": 8.42,
+        "count": 19,
+        "pos_count": 16,
+        "neg_count": 3
+      }
+    }
+  },
+  "B01FH9BPP2": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Annadel Eirwyn Wedge Sandal",
+    "avg_rating": 3.63,
+    "review_count": 316,
+    "scores": {
+      "comfort": {
+        "score": 8.47,
+        "count": 242,
+        "pos_count": 205,
+        "neg_count": 37
+      },
+      "design": {
+        "score": 8.53,
+        "count": 75,
+        "pos_count": 64,
+        "neg_count": 11
+      },
+      "size": {
+        "score": 2.68,
+        "count": 194,
+        "pos_count": 52,
+        "neg_count": 142
+      },
+      "durability": {
+        "score": 2.75,
+        "count": 51,
+        "pos_count": 14,
+        "neg_count": 37
+      },
+      "price": {
+        "score": 5.83,
+        "count": 12,
+        "pos_count": 7,
+        "neg_count": 5
+      }
+    }
+  },
+  "B01GGM8AO8": {
+    "brand": "PUMA",
+    "product_title": "PUMA Women's Blur Running Shoes",
+    "avg_rating": 3.99,
+    "review_count": 251,
+    "scores": {
+      "comfort": {
+        "score": 7.59,
+        "count": 203,
+        "pos_count": 154,
+        "neg_count": 49
+      },
+      "design": {
+        "score": 8.53,
+        "count": 95,
+        "pos_count": 81,
+        "neg_count": 14
+      },
+      "size": {
+        "score": 4.86,
+        "count": 105,
+        "pos_count": 51,
+        "neg_count": 54
+      },
+      "durability": {
+        "score": 2.55,
+        "count": 47,
+        "pos_count": 12,
+        "neg_count": 35
+      },
+      "price": {
+        "score": 6.82,
+        "count": 22,
+        "pos_count": 15,
+        "neg_count": 7
+      }
+    }
+  },
+  "B01HEAE6GW": {
+    "brand": "Merrell",
+    "product_title": "Merrell Men's All Out Blaze Sieve Water Shoes",
+    "avg_rating": 4.39,
+    "review_count": 285,
+    "scores": {
+      "comfort": {
+        "score": 8.45,
+        "count": 219,
+        "pos_count": 185,
+        "neg_count": 34
+      },
+      "design": {
+        "score": 8.33,
+        "count": 42,
+        "pos_count": 35,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 6.92,
+        "count": 91,
+        "pos_count": 63,
+        "neg_count": 28
+      },
+      "durability": {
+        "score": 6.88,
+        "count": 141,
+        "pos_count": 97,
+        "neg_count": 44
+      },
+      "price": {
+        "score": 4.71,
+        "count": 17,
+        "pos_count": 8,
+        "neg_count": 9
+      }
+    }
+  },
+  "B01HEAE716": {
+    "brand": "Merrell",
+    "product_title": "Merrell Men's All Out Blaze Aero Sport Hiking Water Shoe",
+    "avg_rating": 4.47,
+    "review_count": 246,
+    "scores": {
+      "comfort": {
+        "score": 8.46,
+        "count": 214,
+        "pos_count": 181,
+        "neg_count": 33
+      },
+      "design": {
+        "score": 9.09,
+        "count": 33,
+        "pos_count": 30,
+        "neg_count": 3
+      },
+      "size": {
+        "score": 5.36,
+        "count": 69,
+        "pos_count": 37,
+        "neg_count": 32
+      },
+      "durability": {
+        "score": 7.41,
+        "count": 112,
+        "pos_count": 83,
+        "neg_count": 29
+      },
+      "price": {
+        "score": 7.5,
+        "count": 8,
+        "pos_count": 6,
+        "neg_count": 2
+      }
+    }
+  },
+  "B01HF9ZN7I": {
+    "brand": "Merrell",
+    "product_title": "Merrell Men's Moab 2 Mid Waterproof Hiking Boot",
+    "avg_rating": 3.67,
+    "review_count": 347,
+    "scores": {
+      "comfort": {
+        "score": 7.98,
+        "count": 263,
+        "pos_count": 210,
+        "neg_count": 53
+      },
+      "design": {
+        "score": 7.74,
+        "count": 31,
+        "pos_count": 24,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 4.77,
+        "count": 107,
+        "pos_count": 51,
+        "neg_count": 56
+      },
+      "durability": {
+        "score": 4.15,
+        "count": 205,
+        "pos_count": 85,
+        "neg_count": 120
+      },
+      "price": {
+        "score": 5.95,
+        "count": 37,
+        "pos_count": 22,
+        "neg_count": 15
+      }
+    }
+  },
+  "B01HGVY0UQ": {
+    "brand": "Merrell",
+    "product_title": "Merrell Women's Moab 2 Vent Mid Hiking Boot",
+    "avg_rating": 4.58,
+    "review_count": 240,
+    "scores": {
+      "comfort": {
+        "score": 8.67,
+        "count": 263,
+        "pos_count": 228,
+        "neg_count": 35
+      },
+      "design": {
+        "score": 7.04,
+        "count": 27,
+        "pos_count": 19,
+        "neg_count": 8
+      },
+      "size": {
+        "score": 7.52,
+        "count": 105,
+        "pos_count": 79,
+        "neg_count": 26
+      },
+      "durability": {
+        "score": 8.07,
+        "count": 57,
+        "pos_count": 46,
+        "neg_count": 11
+      },
+      "price": {
+        "score": 10.0,
+        "count": 5,
+        "pos_count": 5,
+        "neg_count": 0
+      }
+    }
+  },
+  "B01HGVY0TM": {
+    "brand": "Merrell",
+    "product_title": "Merrell Women's Moab 2 Mid Waterproof Hiking Boot",
+    "avg_rating": 4.17,
+    "review_count": 396,
+    "scores": {
+      "comfort": {
+        "score": 8.29,
+        "count": 369,
+        "pos_count": 306,
+        "neg_count": 63
+      },
+      "design": {
+        "score": 7.55,
+        "count": 49,
+        "pos_count": 37,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 5.86,
+        "count": 174,
+        "pos_count": 102,
+        "neg_count": 72
+      },
+      "durability": {
+        "score": 4.84,
+        "count": 126,
+        "pos_count": 61,
+        "neg_count": 65
+      },
+      "price": {
+        "score": 6.32,
+        "count": 19,
+        "pos_count": 12,
+        "neg_count": 7
+      }
+    }
+  },
+  "B01MQYC6T7": {
+    "brand": "adidas",
+    "product_title": "adidas Men's Ultraboost X Running Shoe",
+    "avg_rating": 4.24,
+    "review_count": 211,
+    "scores": {
+      "comfort": {
+        "score": 8.51,
+        "count": 188,
+        "pos_count": 160,
+        "neg_count": 28
+      },
+      "design": {
+        "score": 7.45,
+        "count": 47,
+        "pos_count": 35,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 4.58,
+        "count": 83,
+        "pos_count": 38,
+        "neg_count": 45
+      },
+      "durability": {
+        "score": 3.43,
+        "count": 35,
+        "pos_count": 12,
+        "neg_count": 23
+      },
+      "price": {
+        "score": 7.0,
+        "count": 20,
+        "pos_count": 14,
+        "neg_count": 6
+      }
+    }
+  },
+  "B01IBZJA10": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Leisa Cacti Slide Sandal",
+    "avg_rating": 4.42,
+    "review_count": 242,
+    "scores": {
+      "comfort": {
+        "score": 8.59,
+        "count": 199,
+        "pos_count": 171,
+        "neg_count": 28
+      },
+      "design": {
+        "score": 8.14,
+        "count": 86,
+        "pos_count": 70,
+        "neg_count": 16
+      },
+      "size": {
+        "score": 6.96,
+        "count": 102,
+        "pos_count": 71,
+        "neg_count": 31
+      },
+      "durability": {
+        "score": 5.67,
+        "count": 60,
+        "pos_count": 34,
+        "neg_count": 26
+      },
+      "price": {
+        "score": 7.5,
+        "count": 16,
+        "pos_count": 12,
+        "neg_count": 4
+      }
+    }
+  },
+  "B01MRZPT9E": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Emslie Lulin Pump",
+    "avg_rating": 4.21,
+    "review_count": 310,
+    "scores": {
+      "comfort": {
+        "score": 8.59,
+        "count": 306,
+        "pos_count": 263,
+        "neg_count": 43
+      },
+      "design": {
+        "score": 8.29,
+        "count": 82,
+        "pos_count": 68,
+        "neg_count": 14
+      },
+      "size": {
+        "score": 5.18,
+        "count": 110,
+        "pos_count": 57,
+        "neg_count": 53
+      },
+      "durability": {
+        "score": 3.07,
+        "count": 75,
+        "pos_count": 23,
+        "neg_count": 52
+      },
+      "price": {
+        "score": 8.0,
+        "count": 10,
+        "pos_count": 8,
+        "neg_count": 2
+      }
+    }
+  },
+  "B01N64EM3S": {
+    "brand": "adidas",
+    "product_title": "adidas Men's Alphabounce Slide",
+    "avg_rating": 4.25,
+    "review_count": 275,
+    "scores": {
+      "comfort": {
+        "score": 8.22,
+        "count": 269,
+        "pos_count": 221,
+        "neg_count": 48
+      },
+      "design": {
+        "score": 6.84,
+        "count": 38,
+        "pos_count": 26,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 5.51,
+        "count": 89,
+        "pos_count": 49,
+        "neg_count": 40
+      },
+      "durability": {
+        "score": 6.92,
+        "count": 65,
+        "pos_count": 45,
+        "neg_count": 20
+      },
+      "price": {
+        "score": 8.95,
+        "count": 19,
+        "pos_count": 17,
+        "neg_count": 2
+      }
+    }
+  },
+  "B0714389ZY": {
+    "brand": "NINE WEST",
+    "product_title": "NINE WEST Footwear Women's ASTORIA9X9 Fabric",
+    "avg_rating": 3.77,
+    "review_count": 86,
+    "scores": {
+      "comfort": {
+        "score": 7.12,
+        "count": 52,
+        "pos_count": 37,
+        "neg_count": 15
+      },
+      "design": {
+        "score": 10.0,
+        "count": 25,
+        "pos_count": 25,
+        "neg_count": 0
+      },
+      "size": {
+        "score": 2.75,
+        "count": 51,
+        "pos_count": 14,
+        "neg_count": 37
+      },
+      "durability": {
+        "score": 4.78,
+        "count": 23,
+        "pos_count": 11,
+        "neg_count": 12
+      },
+      "price": {
+        "score": 6.25,
+        "count": 8,
+        "pos_count": 5,
+        "neg_count": 3
+      }
+    }
+  },
+  "B06XPFG2HK": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's Cleo Bewitch Ballet Flat",
+    "avg_rating": 3.92,
+    "review_count": 305,
+    "scores": {
+      "comfort": {
+        "score": 7.59,
+        "count": 286,
+        "pos_count": 217,
+        "neg_count": 69
+      },
+      "design": {
+        "score": 8.59,
+        "count": 71,
+        "pos_count": 61,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 3.35,
+        "count": 161,
+        "pos_count": 54,
+        "neg_count": 107
+      },
+      "durability": {
+        "score": 2.35,
+        "count": 51,
+        "pos_count": 12,
+        "neg_count": 39
+      },
+      "price": {
+        "score": 6.67,
+        "count": 15,
+        "pos_count": 10,
+        "neg_count": 5
+      }
+    }
+  },
+  "B074GXFV5X": {
+    "brand": "Nike",
+    "product_title": "Nike Women's Low-Top Sneakers",
+    "avg_rating": 3.94,
+    "review_count": 231,
+    "scores": {
+      "comfort": {
+        "score": 8.15,
+        "count": 195,
+        "pos_count": 159,
+        "neg_count": 36
+      },
+      "design": {
+        "score": 8.44,
+        "count": 64,
+        "pos_count": 54,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 4.36,
+        "count": 94,
+        "pos_count": 41,
+        "neg_count": 53
+      },
+      "durability": {
+        "score": 2.93,
+        "count": 41,
+        "pos_count": 12,
+        "neg_count": 29
+      },
+      "price": {
+        "score": 4.55,
+        "count": 22,
+        "pos_count": 10,
+        "neg_count": 12
+      }
+    }
+  },
+  "B071GMY3BC": {
+    "brand": "PUMA",
+    "product_title": "PUMA Unisex-Adult Tazon 6 IRI Wn Sneaker",
+    "avg_rating": 4.0,
+    "review_count": 266,
+    "scores": {
+      "comfort": {
+        "score": 6.73,
+        "count": 263,
+        "pos_count": 177,
+        "neg_count": 86
+      },
+      "design": {
+        "score": 8.33,
+        "count": 72,
+        "pos_count": 60,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 4.37,
+        "count": 135,
+        "pos_count": 59,
+        "neg_count": 76
+      },
+      "durability": {
+        "score": 3.95,
+        "count": 43,
+        "pos_count": 17,
+        "neg_count": 26
+      },
+      "price": {
+        "score": 9.23,
+        "count": 26,
+        "pos_count": 24,
+        "neg_count": 2
+      }
+    }
+  },
+  "B0752545T4": {
+    "brand": "PUMA",
+    "product_title": "Puma Mens Axelion Winter Trail Green Athletic Hiking Shoes 13",
+    "avg_rating": 3.82,
+    "review_count": 179,
+    "scores": {
+      "comfort": {
+        "score": 8.15,
+        "count": 130,
+        "pos_count": 106,
+        "neg_count": 24
+      },
+      "design": {
+        "score": 8.25,
+        "count": 63,
+        "pos_count": 52,
+        "neg_count": 11
+      },
+      "size": {
+        "score": 3.77,
+        "count": 69,
+        "pos_count": 26,
+        "neg_count": 43
+      },
+      "durability": {
+        "score": 2.55,
+        "count": 47,
+        "pos_count": 12,
+        "neg_count": 35
+      },
+      "price": {
+        "score": 6.0,
+        "count": 15,
+        "pos_count": 9,
+        "neg_count": 6
+      }
+    }
+  },
+  "B079LLP9FT": {
+    "brand": "Nike",
+    "product_title": "Nike Men's Revolution 4 Running Shoe",
+    "avg_rating": 4.09,
+    "review_count": 141,
+    "scores": {
+      "comfort": {
+        "score": 8.15,
+        "count": 92,
+        "pos_count": 75,
+        "neg_count": 17
+      },
+      "design": {
+        "score": 8.67,
+        "count": 30,
+        "pos_count": 26,
+        "neg_count": 4
+      },
+      "size": {
+        "score": 6.29,
+        "count": 62,
+        "pos_count": 39,
+        "neg_count": 23
+      },
+      "durability": {
+        "score": 3.48,
+        "count": 46,
+        "pos_count": 16,
+        "neg_count": 30
+      },
+      "price": {
+        "score": 9.0,
+        "count": 20,
+        "pos_count": 18,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07CD4W3YD": {
+    "brand": "Nike",
+    "product_title": "Nike Women's Sneaker Running Shoes",
+    "avg_rating": 4.19,
+    "review_count": 149,
+    "scores": {
+      "comfort": {
+        "score": 8.9,
+        "count": 118,
+        "pos_count": 105,
+        "neg_count": 13
+      },
+      "design": {
+        "score": 8.5,
+        "count": 20,
+        "pos_count": 17,
+        "neg_count": 3
+      },
+      "size": {
+        "score": 5.29,
+        "count": 68,
+        "pos_count": 36,
+        "neg_count": 32
+      },
+      "durability": {
+        "score": 4.55,
+        "count": 22,
+        "pos_count": 10,
+        "neg_count": 12
+      },
+      "price": {
+        "score": 5.0,
+        "count": 8,
+        "pos_count": 4,
+        "neg_count": 4
+      }
+    }
+  },
+  "B078GSXGWZ": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's Go Joy Walking Shoe Sneaker",
+    "avg_rating": 4.03,
+    "review_count": 342,
+    "scores": {
+      "comfort": {
+        "score": 8.8,
+        "count": 300,
+        "pos_count": 264,
+        "neg_count": 36
+      },
+      "design": {
+        "score": 6.94,
+        "count": 62,
+        "pos_count": 43,
+        "neg_count": 19
+      },
+      "size": {
+        "score": 3.67,
+        "count": 196,
+        "pos_count": 72,
+        "neg_count": 124
+      },
+      "durability": {
+        "score": 3.15,
+        "count": 54,
+        "pos_count": 17,
+        "neg_count": 37
+      },
+      "price": {
+        "score": 6.52,
+        "count": 23,
+        "pos_count": 15,
+        "neg_count": 8
+      }
+    }
+  },
+  "B07BZGVBF7": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Breeze Sea Flip-Flop",
+    "avg_rating": 4.07,
+    "review_count": 329,
+    "scores": {
+      "comfort": {
+        "score": 8.47,
+        "count": 281,
+        "pos_count": 238,
+        "neg_count": 43
+      },
+      "design": {
+        "score": 8.63,
+        "count": 95,
+        "pos_count": 82,
+        "neg_count": 13
+      },
+      "size": {
+        "score": 4.75,
+        "count": 122,
+        "pos_count": 58,
+        "neg_count": 64
+      },
+      "durability": {
+        "score": 4.56,
+        "count": 90,
+        "pos_count": 41,
+        "neg_count": 49
+      },
+      "price": {
+        "score": 6.5,
+        "count": 40,
+        "pos_count": 26,
+        "neg_count": 14
+      }
+    }
+  },
+  "B07DDPJT57": {
+    "brand": "Nike",
+    "product_title": "Nike Men's Sneaker Gymnastics Shoes",
+    "avg_rating": 4.27,
+    "review_count": 165,
+    "scores": {
+      "comfort": {
+        "score": 8.52,
+        "count": 122,
+        "pos_count": 104,
+        "neg_count": 18
+      },
+      "design": {
+        "score": 8.97,
+        "count": 39,
+        "pos_count": 35,
+        "neg_count": 4
+      },
+      "size": {
+        "score": 5.28,
+        "count": 89,
+        "pos_count": 47,
+        "neg_count": 42
+      },
+      "durability": {
+        "score": 3.85,
+        "count": 26,
+        "pos_count": 10,
+        "neg_count": 16
+      },
+      "price": {
+        "score": 2.86,
+        "count": 7,
+        "pos_count": 2,
+        "neg_count": 5
+      }
+    }
+  },
+  "B07DDK42RF": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Warren Slip-On Loafer",
+    "avg_rating": 4.28,
+    "review_count": 304,
+    "scores": {
+      "comfort": {
+        "score": 8.37,
+        "count": 258,
+        "pos_count": 216,
+        "neg_count": 42
+      },
+      "design": {
+        "score": 9.25,
+        "count": 93,
+        "pos_count": 86,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 4.84,
+        "count": 159,
+        "pos_count": 77,
+        "neg_count": 82
+      },
+      "durability": {
+        "score": 4.75,
+        "count": 61,
+        "pos_count": 29,
+        "neg_count": 32
+      },
+      "price": {
+        "score": 10.0,
+        "count": 12,
+        "pos_count": 12,
+        "neg_count": 0
+      }
+    }
+  },
+  "B07F2L95RQ": {
+    "brand": "PUMA",
+    "product_title": "PUMA Women's California Sneaker",
+    "avg_rating": 3.34,
+    "review_count": 173,
+    "scores": {
+      "comfort": {
+        "score": 2.6,
+        "count": 146,
+        "pos_count": 38,
+        "neg_count": 108
+      },
+      "design": {
+        "score": 9.09,
+        "count": 77,
+        "pos_count": 70,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 2.24,
+        "count": 98,
+        "pos_count": 22,
+        "neg_count": 76
+      },
+      "durability": {
+        "score": 6.0,
+        "count": 20,
+        "pos_count": 12,
+        "neg_count": 8
+      },
+      "price": {
+        "score": 8.57,
+        "count": 14,
+        "pos_count": 12,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07DLRHF37": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Serena Sandals",
+    "avg_rating": 4.31,
+    "review_count": 302,
+    "scores": {
+      "comfort": {
+        "score": 9.09,
+        "count": 243,
+        "pos_count": 221,
+        "neg_count": 22
+      },
+      "design": {
+        "score": 8.55,
+        "count": 83,
+        "pos_count": 71,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 3.66,
+        "count": 194,
+        "pos_count": 71,
+        "neg_count": 123
+      },
+      "durability": {
+        "score": 6.92,
+        "count": 26,
+        "pos_count": 18,
+        "neg_count": 8
+      },
+      "price": {
+        "score": 7.78,
+        "count": 9,
+        "pos_count": 7,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07FXSH766": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Neria Pro Ii Clog | Slip Resistant Work Shoes",
+    "avg_rating": 3.61,
+    "review_count": 356,
+    "scores": {
+      "comfort": {
+        "score": 5.59,
+        "count": 388,
+        "pos_count": 217,
+        "neg_count": 171
+      },
+      "design": {
+        "score": 8.67,
+        "count": 45,
+        "pos_count": 39,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 1.93,
+        "count": 197,
+        "pos_count": 38,
+        "neg_count": 159
+      },
+      "durability": {
+        "score": 4.81,
+        "count": 52,
+        "pos_count": 25,
+        "neg_count": 27
+      },
+      "price": {
+        "score": 7.31,
+        "count": 26,
+        "pos_count": 19,
+        "neg_count": 7
+      }
+    }
+  },
+  "B07GT59C2Y": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Ashland Spin Q Slip-On Loafer",
+    "avg_rating": 4.1,
+    "review_count": 296,
+    "scores": {
+      "comfort": {
+        "score": 7.49,
+        "count": 235,
+        "pos_count": 176,
+        "neg_count": 59
+      },
+      "design": {
+        "score": 9.02,
+        "count": 92,
+        "pos_count": 83,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 4.76,
+        "count": 164,
+        "pos_count": 78,
+        "neg_count": 86
+      },
+      "durability": {
+        "score": 5.22,
+        "count": 46,
+        "pos_count": 24,
+        "neg_count": 22
+      },
+      "price": {
+        "score": 9.09,
+        "count": 22,
+        "pos_count": 20,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07NX786R8": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's Max Cushioning Elite Sneaker",
+    "avg_rating": 4.3,
+    "review_count": 292,
+    "scores": {
+      "comfort": {
+        "score": 8.37,
+        "count": 312,
+        "pos_count": 261,
+        "neg_count": 51
+      },
+      "design": {
+        "score": 8.5,
+        "count": 40,
+        "pos_count": 34,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 5.86,
+        "count": 87,
+        "pos_count": 51,
+        "neg_count": 36
+      },
+      "durability": {
+        "score": 3.51,
+        "count": 37,
+        "pos_count": 13,
+        "neg_count": 24
+      },
+      "price": {
+        "score": 7.41,
+        "count": 27,
+        "pos_count": 20,
+        "neg_count": 7
+      }
+    }
+  },
+  "B07QY9N5LP": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Gel-Kayano 26 Running Shoes",
+    "avg_rating": 4.0,
+    "review_count": 291,
+    "scores": {
+      "comfort": {
+        "score": 7.57,
+        "count": 263,
+        "pos_count": 199,
+        "neg_count": 64
+      },
+      "design": {
+        "score": 9.12,
+        "count": 57,
+        "pos_count": 52,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 4.11,
+        "count": 129,
+        "pos_count": 53,
+        "neg_count": 76
+      },
+      "durability": {
+        "score": 3.0,
+        "count": 40,
+        "pos_count": 12,
+        "neg_count": 28
+      },
+      "price": {
+        "score": 5.45,
+        "count": 22,
+        "pos_count": 12,
+        "neg_count": 10
+      }
+    }
+  },
+  "B07RJTN4CS": {
+    "brand": "Nike",
+    "product_title": "Nike Men's Air Monarch Iv Cross Trainer",
+    "avg_rating": 3.08,
+    "review_count": 261,
+    "scores": {
+      "comfort": {
+        "score": 6.64,
+        "count": 152,
+        "pos_count": 101,
+        "neg_count": 51
+      },
+      "design": {
+        "score": 8.28,
+        "count": 29,
+        "pos_count": 24,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 4.44,
+        "count": 72,
+        "pos_count": 32,
+        "neg_count": 40
+      },
+      "durability": {
+        "score": 2.34,
+        "count": 137,
+        "pos_count": 32,
+        "neg_count": 105
+      },
+      "price": {
+        "score": 7.86,
+        "count": 28,
+        "pos_count": 22,
+        "neg_count": 6
+      }
+    }
+  },
+  "B07S363Q63": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Cheyn Madi Slip-On Loafer",
+    "avg_rating": 4.16,
+    "review_count": 305,
+    "scores": {
+      "comfort": {
+        "score": 8.09,
+        "count": 257,
+        "pos_count": 208,
+        "neg_count": 49
+      },
+      "design": {
+        "score": 9.32,
+        "count": 74,
+        "pos_count": 69,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 4.2,
+        "count": 176,
+        "pos_count": 74,
+        "neg_count": 102
+      },
+      "durability": {
+        "score": 5.77,
+        "count": 52,
+        "pos_count": 30,
+        "neg_count": 22
+      },
+      "price": {
+        "score": 8.46,
+        "count": 13,
+        "pos_count": 11,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07TDNGPBB": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Crocs At Work Flat | Women's Flats | Work Shoes for Women",
+    "avg_rating": 3.65,
+    "review_count": 313,
+    "scores": {
+      "comfort": {
+        "score": 5.49,
+        "count": 324,
+        "pos_count": 178,
+        "neg_count": 146
+      },
+      "design": {
+        "score": 7.75,
+        "count": 40,
+        "pos_count": 31,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 2.03,
+        "count": 133,
+        "pos_count": 27,
+        "neg_count": 106
+      },
+      "durability": {
+        "score": 4.48,
+        "count": 29,
+        "pos_count": 13,
+        "neg_count": 16
+      },
+      "price": {
+        "score": 10.0,
+        "count": 1,
+        "pos_count": 1,
+        "neg_count": 0
+      }
+    }
+  },
+  "B07VQGWDST": {
+    "brand": "Nike",
+    "product_title": "Nike Women's Air Zoom Pegasus 36 Running Shoes",
+    "avg_rating": 3.84,
+    "review_count": 247,
+    "scores": {
+      "comfort": {
+        "score": 7.43,
+        "count": 210,
+        "pos_count": 156,
+        "neg_count": 54
+      },
+      "design": {
+        "score": 7.64,
+        "count": 55,
+        "pos_count": 42,
+        "neg_count": 13
+      },
+      "size": {
+        "score": 3.25,
+        "count": 83,
+        "pos_count": 27,
+        "neg_count": 56
+      },
+      "durability": {
+        "score": 2.56,
+        "count": 43,
+        "pos_count": 11,
+        "neg_count": 32
+      },
+      "price": {
+        "score": 6.67,
+        "count": 6,
+        "pos_count": 4,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07WZRDR3T": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's GT-2000 8 Running Shoes",
+    "avg_rating": 4.23,
+    "review_count": 254,
+    "scores": {
+      "comfort": {
+        "score": 7.86,
+        "count": 224,
+        "pos_count": 176,
+        "neg_count": 48
+      },
+      "design": {
+        "score": 8.96,
+        "count": 77,
+        "pos_count": 69,
+        "neg_count": 8
+      },
+      "size": {
+        "score": 5.0,
+        "count": 120,
+        "pos_count": 60,
+        "neg_count": 60
+      },
+      "durability": {
+        "score": 4.76,
+        "count": 42,
+        "pos_count": 20,
+        "neg_count": 22
+      },
+      "price": {
+        "score": 8.57,
+        "count": 14,
+        "pos_count": 12,
+        "neg_count": 2
+      }
+    }
+  },
+  "B07X1W4VHK": {
+    "brand": "ASICS",
+    "product_title": "ASICS Men's Gel-Nimbus 22 Running Shoes",
+    "avg_rating": 4.0,
+    "review_count": 271,
+    "scores": {
+      "comfort": {
+        "score": 8.9,
+        "count": 218,
+        "pos_count": 194,
+        "neg_count": 24
+      },
+      "design": {
+        "score": 7.63,
+        "count": 38,
+        "pos_count": 29,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 4.59,
+        "count": 85,
+        "pos_count": 39,
+        "neg_count": 46
+      },
+      "durability": {
+        "score": 2.9,
+        "count": 100,
+        "pos_count": 29,
+        "neg_count": 71
+      },
+      "price": {
+        "score": 5.0,
+        "count": 16,
+        "pos_count": 8,
+        "neg_count": 8
+      }
+    }
+  },
+  "B07X5X4ZZV": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Gel-Excite 7 Running Shoe",
+    "avg_rating": 4.14,
+    "review_count": 281,
+    "scores": {
+      "comfort": {
+        "score": 7.93,
+        "count": 256,
+        "pos_count": 203,
+        "neg_count": 53
+      },
+      "design": {
+        "score": 9.54,
+        "count": 87,
+        "pos_count": 83,
+        "neg_count": 4
+      },
+      "size": {
+        "score": 5.34,
+        "count": 131,
+        "pos_count": 70,
+        "neg_count": 61
+      },
+      "durability": {
+        "score": 3.39,
+        "count": 56,
+        "pos_count": 19,
+        "neg_count": 37
+      },
+      "price": {
+        "score": 9.63,
+        "count": 27,
+        "pos_count": 26,
+        "neg_count": 1
+      }
+    }
+  },
+  "B07XPLHXC1": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Gel-Contend 6 Running Shoes",
+    "avg_rating": 4.32,
+    "review_count": 271,
+    "scores": {
+      "comfort": {
+        "score": 8.28,
+        "count": 250,
+        "pos_count": 207,
+        "neg_count": 43
+      },
+      "design": {
+        "score": 8.64,
+        "count": 44,
+        "pos_count": 38,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 6.5,
+        "count": 117,
+        "pos_count": 76,
+        "neg_count": 41
+      },
+      "durability": {
+        "score": 3.45,
+        "count": 58,
+        "pos_count": 20,
+        "neg_count": 38
+      },
+      "price": {
+        "score": 8.75,
+        "count": 32,
+        "pos_count": 28,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0815WPWFC": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Arla Shaylie Platform",
+    "avg_rating": 4.35,
+    "review_count": 268,
+    "scores": {
+      "comfort": {
+        "score": 8.99,
+        "count": 248,
+        "pos_count": 223,
+        "neg_count": 25
+      },
+      "design": {
+        "score": 8.38,
+        "count": 74,
+        "pos_count": 62,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 4.14,
+        "count": 116,
+        "pos_count": 48,
+        "neg_count": 68
+      },
+      "durability": {
+        "score": 4.35,
+        "count": 23,
+        "pos_count": 10,
+        "neg_count": 13
+      },
+      "price": {
+        "score": 10.0,
+        "count": 12,
+        "pos_count": 12,
+        "neg_count": 0
+      }
+    }
+  },
+  "B082QKPV3L": {
+    "brand": "adidas",
+    "product_title": "adidas Women's Grand Court Sneaker",
+    "avg_rating": 3.98,
+    "review_count": 290,
+    "scores": {
+      "comfort": {
+        "score": 6.39,
+        "count": 205,
+        "pos_count": 131,
+        "neg_count": 74
+      },
+      "design": {
+        "score": 8.95,
+        "count": 95,
+        "pos_count": 85,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 5.29,
+        "count": 157,
+        "pos_count": 83,
+        "neg_count": 74
+      },
+      "durability": {
+        "score": 3.12,
+        "count": 48,
+        "pos_count": 15,
+        "neg_count": 33
+      },
+      "price": {
+        "score": 7.86,
+        "count": 14,
+        "pos_count": 11,
+        "neg_count": 3
+      }
+    }
+  },
+  "B0849J5F19": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's Reggae Slim Simply Stretch Sandal",
+    "avg_rating": 4.21,
+    "review_count": 287,
+    "scores": {
+      "comfort": {
+        "score": 8.26,
+        "count": 288,
+        "pos_count": 238,
+        "neg_count": 50
+      },
+      "design": {
+        "score": 9.35,
+        "count": 77,
+        "pos_count": 72,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 4.38,
+        "count": 130,
+        "pos_count": 57,
+        "neg_count": 73
+      },
+      "durability": {
+        "score": 6.4,
+        "count": 25,
+        "pos_count": 16,
+        "neg_count": 9
+      },
+      "price": {
+        "score": 8.89,
+        "count": 9,
+        "pos_count": 8,
+        "neg_count": 1
+      }
+    }
+  },
+  "B085TV9HHZ": {
+    "brand": "ASICS",
+    "product_title": "ASICS Men's GT-2000 8 Running Shoes",
+    "avg_rating": 4.26,
+    "review_count": 224,
+    "scores": {
+      "comfort": {
+        "score": 7.93,
+        "count": 169,
+        "pos_count": 134,
+        "neg_count": 35
+      },
+      "design": {
+        "score": 7.78,
+        "count": 45,
+        "pos_count": 35,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 6.47,
+        "count": 68,
+        "pos_count": 44,
+        "neg_count": 24
+      },
+      "durability": {
+        "score": 4.77,
+        "count": 65,
+        "pos_count": 31,
+        "neg_count": 34
+      },
+      "price": {
+        "score": 6.5,
+        "count": 20,
+        "pos_count": 13,
+        "neg_count": 7
+      }
+    }
+  },
+  "B084K6Y6MK": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's On-The-go 600-Brilliancy Sport Sandal",
+    "avg_rating": 4.14,
+    "review_count": 338,
+    "scores": {
+      "comfort": {
+        "score": 8.62,
+        "count": 312,
+        "pos_count": 269,
+        "neg_count": 43
+      },
+      "design": {
+        "score": 8.14,
+        "count": 59,
+        "pos_count": 48,
+        "neg_count": 11
+      },
+      "size": {
+        "score": 4.07,
+        "count": 145,
+        "pos_count": 59,
+        "neg_count": 86
+      },
+      "durability": {
+        "score": 4.75,
+        "count": 59,
+        "pos_count": 28,
+        "neg_count": 31
+      },
+      "price": {
+        "score": 6.92,
+        "count": 13,
+        "pos_count": 9,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0888R7ZNP": {
+    "brand": "Nike",
+    "product_title": "Nike Men's Sneaker,Running Shoes",
+    "avg_rating": 4.01,
+    "review_count": 150,
+    "scores": {
+      "comfort": {
+        "score": 7.91,
+        "count": 86,
+        "pos_count": 68,
+        "neg_count": 18
+      },
+      "design": {
+        "score": 9.17,
+        "count": 36,
+        "pos_count": 33,
+        "neg_count": 3
+      },
+      "size": {
+        "score": 4.46,
+        "count": 65,
+        "pos_count": 29,
+        "neg_count": 36
+      },
+      "durability": {
+        "score": 4.74,
+        "count": 38,
+        "pos_count": 18,
+        "neg_count": 20
+      },
+      "price": {
+        "score": 8.0,
+        "count": 10,
+        "pos_count": 8,
+        "neg_count": 2
+      }
+    }
+  },
+  "B088GYJ6ND": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Gel-Kayano 28 Running Shoes",
+    "avg_rating": 3.89,
+    "review_count": 330,
+    "scores": {
+      "comfort": {
+        "score": 7.3,
+        "count": 282,
+        "pos_count": 206,
+        "neg_count": 76
+      },
+      "design": {
+        "score": 9.0,
+        "count": 60,
+        "pos_count": 54,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 3.9,
+        "count": 146,
+        "pos_count": 57,
+        "neg_count": 89
+      },
+      "durability": {
+        "score": 1.78,
+        "count": 45,
+        "pos_count": 8,
+        "neg_count": 37
+      },
+      "price": {
+        "score": 4.76,
+        "count": 21,
+        "pos_count": 10,
+        "neg_count": 11
+      }
+    }
+  },
+  "B0876166GF": {
+    "brand": "Merrell",
+    "product_title": "Merrell Women's Moab 2 Vent Hiking Shoe",
+    "avg_rating": 4.1,
+    "review_count": 380,
+    "scores": {
+      "comfort": {
+        "score": 7.52,
+        "count": 399,
+        "pos_count": 300,
+        "neg_count": 99
+      },
+      "design": {
+        "score": 8.2,
+        "count": 50,
+        "pos_count": 41,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 5.8,
+        "count": 174,
+        "pos_count": 101,
+        "neg_count": 73
+      },
+      "durability": {
+        "score": 6.88,
+        "count": 109,
+        "pos_count": 75,
+        "neg_count": 34
+      },
+      "price": {
+        "score": 8.93,
+        "count": 28,
+        "pos_count": 25,
+        "neg_count": 3
+      }
+    }
+  },
+  "B08BCNC79Q": {
+    "brand": "ASICS",
+    "product_title": "ASICS womens Gel-nimbus® 23",
+    "avg_rating": 3.75,
+    "review_count": 329,
+    "scores": {
+      "comfort": {
+        "score": 7.61,
+        "count": 272,
+        "pos_count": 207,
+        "neg_count": 65
+      },
+      "design": {
+        "score": 8.93,
+        "count": 56,
+        "pos_count": 50,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 3.91,
+        "count": 128,
+        "pos_count": 50,
+        "neg_count": 78
+      },
+      "durability": {
+        "score": 1.46,
+        "count": 82,
+        "pos_count": 12,
+        "neg_count": 70
+      },
+      "price": {
+        "score": 6.05,
+        "count": 38,
+        "pos_count": 23,
+        "neg_count": 15
+      }
+    }
+  },
+  "B08F39LY65": {
+    "brand": "KEEN",
+    "product_title": "KEEN Unisex-Child Seacamp 2 CNX Closed Toe Sandals",
+    "avg_rating": 4.33,
+    "review_count": 304,
+    "scores": {
+      "comfort": {
+        "score": 9.02,
+        "count": 153,
+        "pos_count": 138,
+        "neg_count": 15
+      },
+      "design": {
+        "score": 8.48,
+        "count": 66,
+        "pos_count": 56,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 4.89,
+        "count": 92,
+        "pos_count": 45,
+        "neg_count": 47
+      },
+      "durability": {
+        "score": 6.9,
+        "count": 145,
+        "pos_count": 100,
+        "neg_count": 45
+      },
+      "price": {
+        "score": 5.85,
+        "count": 41,
+        "pos_count": 24,
+        "neg_count": 17
+      }
+    }
+  },
+  "B08MVBSNPQ": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Noosa Tri 13 Running Shoes",
+    "avg_rating": 4.53,
+    "review_count": 230,
+    "scores": {
+      "comfort": {
+        "score": 8.77,
+        "count": 228,
+        "pos_count": 200,
+        "neg_count": 28
+      },
+      "design": {
+        "score": 9.43,
+        "count": 88,
+        "pos_count": 83,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 5.21,
+        "count": 71,
+        "pos_count": 37,
+        "neg_count": 34
+      },
+      "durability": {
+        "score": 5.5,
+        "count": 20,
+        "pos_count": 11,
+        "neg_count": 9
+      },
+      "price": {
+        "score": 6.67,
+        "count": 18,
+        "pos_count": 12,
+        "neg_count": 6
+      }
+    }
+  },
+  "B08M56835J": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Gel-Venture 7 Running Shoes",
+    "avg_rating": 3.82,
+    "review_count": 328,
+    "scores": {
+      "comfort": {
+        "score": 7.03,
+        "count": 286,
+        "pos_count": 201,
+        "neg_count": 85
+      },
+      "design": {
+        "score": 7.36,
+        "count": 91,
+        "pos_count": 67,
+        "neg_count": 24
+      },
+      "size": {
+        "score": 4.31,
+        "count": 167,
+        "pos_count": 72,
+        "neg_count": 95
+      },
+      "durability": {
+        "score": 3.62,
+        "count": 94,
+        "pos_count": 34,
+        "neg_count": 60
+      },
+      "price": {
+        "score": 7.78,
+        "count": 27,
+        "pos_count": 21,
+        "neg_count": 6
+      }
+    }
+  },
+  "B08N6FLS83": {
+    "brand": "adidas",
+    "product_title": "adidas Men's Terrex Swift R2 Gore-tex Hiking Walking Shoe",
+    "avg_rating": 4.15,
+    "review_count": 230,
+    "scores": {
+      "comfort": {
+        "score": 6.99,
+        "count": 153,
+        "pos_count": 107,
+        "neg_count": 46
+      },
+      "design": {
+        "score": 9.02,
+        "count": 41,
+        "pos_count": 37,
+        "neg_count": 4
+      },
+      "size": {
+        "score": 4.19,
+        "count": 62,
+        "pos_count": 26,
+        "neg_count": 36
+      },
+      "durability": {
+        "score": 6.7,
+        "count": 109,
+        "pos_count": 73,
+        "neg_count": 36
+      },
+      "price": {
+        "score": 4.74,
+        "count": 19,
+        "pos_count": 9,
+        "neg_count": 10
+      }
+    }
+  },
+  "B08PH2196T": {
+    "brand": "ASICS",
+    "product_title": "ASICS Women's Gel-Excite 8 Running Shoes",
+    "avg_rating": 4.21,
+    "review_count": 259,
+    "scores": {
+      "comfort": {
+        "score": 8.33,
+        "count": 234,
+        "pos_count": 195,
+        "neg_count": 39
+      },
+      "design": {
+        "score": 8.86,
+        "count": 70,
+        "pos_count": 62,
+        "neg_count": 8
+      },
+      "size": {
+        "score": 5.59,
+        "count": 136,
+        "pos_count": 76,
+        "neg_count": 60
+      },
+      "durability": {
+        "score": 3.75,
+        "count": 32,
+        "pos_count": 12,
+        "neg_count": 20
+      },
+      "price": {
+        "score": 8.26,
+        "count": 23,
+        "pos_count": 19,
+        "neg_count": 4
+      }
+    }
+  },
+  "B08PQ9ZB1S": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's Go Walk Lite-15433 Boat Shoe",
+    "avg_rating": 4.42,
+    "review_count": 299,
+    "scores": {
+      "comfort": {
+        "score": 8.83,
+        "count": 266,
+        "pos_count": 235,
+        "neg_count": 31
+      },
+      "design": {
+        "score": 9.45,
+        "count": 91,
+        "pos_count": 86,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 4.75,
+        "count": 122,
+        "pos_count": 58,
+        "neg_count": 64
+      },
+      "durability": {
+        "score": 5.0,
+        "count": 52,
+        "pos_count": 26,
+        "neg_count": 26
+      },
+      "price": {
+        "score": 4.17,
+        "count": 12,
+        "pos_count": 5,
+        "neg_count": 7
+      }
+    }
+  },
+  "B093HFXNSN": {
+    "brand": "NINE WEST",
+    "product_title": "NINE WEST Scuff Slippers For Women, Extra Soft & Comfortable Winter House Shoes",
+    "avg_rating": 3.32,
+    "review_count": 96,
+    "scores": {
+      "comfort": {
+        "score": 7.46,
+        "count": 63,
+        "pos_count": 47,
+        "neg_count": 16
+      },
+      "design": {
+        "score": 10.0,
+        "count": 19,
+        "pos_count": 19,
+        "neg_count": 0
+      },
+      "size": {
+        "score": 2.22,
+        "count": 72,
+        "pos_count": 16,
+        "neg_count": 56
+      },
+      "durability": {
+        "score": 5.62,
+        "count": 16,
+        "pos_count": 9,
+        "neg_count": 7
+      },
+      "price": {
+        "score": 5.0,
+        "count": 2,
+        "pos_count": 1,
+        "neg_count": 1
+      }
+    }
+  },
+  "B08QHC268Q": {
+    "brand": "Merrell",
+    "product_title": "Merrell Men's Moab 2 Vent Hiking Shoe",
+    "avg_rating": 3.32,
+    "review_count": 354,
+    "scores": {
+      "comfort": {
+        "score": 5.12,
+        "count": 301,
+        "pos_count": 154,
+        "neg_count": 147
+      },
+      "design": {
+        "score": 6.49,
+        "count": 37,
+        "pos_count": 24,
+        "neg_count": 13
+      },
+      "size": {
+        "score": 4.67,
+        "count": 135,
+        "pos_count": 63,
+        "neg_count": 72
+      },
+      "durability": {
+        "score": 5.18,
+        "count": 166,
+        "pos_count": 86,
+        "neg_count": 80
+      },
+      "price": {
+        "score": 5.71,
+        "count": 14,
+        "pos_count": 8,
+        "neg_count": 6
+      }
+    }
+  },
+  "B0922DBSLN": {
+    "brand": "Crocs",
+    "product_title": "Crocs Men's and Women's Crocband Clog",
+    "avg_rating": 3.99,
+    "review_count": 317,
+    "scores": {
+      "comfort": {
+        "score": 8.13,
+        "count": 214,
+        "pos_count": 174,
+        "neg_count": 40
+      },
+      "design": {
+        "score": 8.46,
+        "count": 65,
+        "pos_count": 55,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 3.67,
+        "count": 147,
+        "pos_count": 54,
+        "neg_count": 93
+      },
+      "durability": {
+        "score": 1.94,
+        "count": 62,
+        "pos_count": 12,
+        "neg_count": 50
+      },
+      "price": {
+        "score": 9.0,
+        "count": 10,
+        "pos_count": 9,
+        "neg_count": 1
+      }
+    }
+  },
+  "B093T7CCCF": {
+    "brand": "Skechers",
+    "product_title": "Skechers BOBS Women's Keepsakes - Ice Angel Slipper",
+    "avg_rating": 4.11,
+    "review_count": 347,
+    "scores": {
+      "comfort": {
+        "score": 7.67,
+        "count": 330,
+        "pos_count": 253,
+        "neg_count": 77
+      },
+      "design": {
+        "score": 8.06,
+        "count": 67,
+        "pos_count": 54,
+        "neg_count": 13
+      },
+      "size": {
+        "score": 4.86,
+        "count": 138,
+        "pos_count": 67,
+        "neg_count": 71
+      },
+      "durability": {
+        "score": 4.83,
+        "count": 116,
+        "pos_count": 56,
+        "neg_count": 60
+      },
+      "price": {
+        "score": 6.67,
+        "count": 27,
+        "pos_count": 18,
+        "neg_count": 9
+      }
+    }
+  },
+  "B094KZ9N1S": {
+    "brand": "Skechers",
+    "product_title": "Skechers Women's BOBS B Cute Sneaker",
+    "avg_rating": 4.28,
+    "review_count": 326,
+    "scores": {
+      "comfort": {
+        "score": 7.73,
+        "count": 264,
+        "pos_count": 204,
+        "neg_count": 60
+      },
+      "design": {
+        "score": 9.25,
+        "count": 133,
+        "pos_count": 123,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 5.03,
+        "count": 165,
+        "pos_count": 83,
+        "neg_count": 82
+      },
+      "durability": {
+        "score": 3.65,
+        "count": 63,
+        "pos_count": 23,
+        "neg_count": 40
+      },
+      "price": {
+        "score": 7.2,
+        "count": 25,
+        "pos_count": 18,
+        "neg_count": 7
+      }
+    }
+  },
+  "B0962JF7D5": {
+    "brand": "Crocs",
+    "product_title": "Crocs Unisex-Adult Men's and Women's on The Clock Clog | Slip Resistant Work Shoes",
+    "avg_rating": 3.77,
+    "review_count": 337,
+    "scores": {
+      "comfort": {
+        "score": 6.56,
+        "count": 314,
+        "pos_count": 206,
+        "neg_count": 108
+      },
+      "design": {
+        "score": 3.66,
+        "count": 41,
+        "pos_count": 15,
+        "neg_count": 26
+      },
+      "size": {
+        "score": 2.36,
+        "count": 148,
+        "pos_count": 35,
+        "neg_count": 113
+      },
+      "durability": {
+        "score": 6.25,
+        "count": 56,
+        "pos_count": 35,
+        "neg_count": 21
+      },
+      "price": {
+        "score": 9.38,
+        "count": 16,
+        "pos_count": 15,
+        "neg_count": 1
+      }
+    }
+  },
+  "B09B41Q71N": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Tulum Toe Post Sandals",
+    "avg_rating": 4.59,
+    "review_count": 275,
+    "scores": {
+      "comfort": {
+        "score": 8.52,
+        "count": 236,
+        "pos_count": 201,
+        "neg_count": 35
+      },
+      "design": {
+        "score": 9.14,
+        "count": 116,
+        "pos_count": 106,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 5.71,
+        "count": 112,
+        "pos_count": 64,
+        "neg_count": 48
+      },
+      "durability": {
+        "score": 6.41,
+        "count": 39,
+        "pos_count": 25,
+        "neg_count": 14
+      },
+      "price": {
+        "score": 10.0,
+        "count": 13,
+        "pos_count": 13,
+        "neg_count": 0
+      }
+    }
+  },
+  "B09LNV2STZ": {
+    "brand": "adidas",
+    "product_title": "adidas Women's Puremotion Adapt Sneaker",
+    "avg_rating": 3.68,
+    "review_count": 294,
+    "scores": {
+      "comfort": {
+        "score": 6.95,
+        "count": 233,
+        "pos_count": 162,
+        "neg_count": 71
+      },
+      "design": {
+        "score": 9.36,
+        "count": 78,
+        "pos_count": 73,
+        "neg_count": 5
+      },
+      "size": {
+        "score": 3.22,
+        "count": 143,
+        "pos_count": 46,
+        "neg_count": 97
+      },
+      "durability": {
+        "score": 3.16,
+        "count": 57,
+        "pos_count": 18,
+        "neg_count": 39
+      },
+      "price": {
+        "score": 7.78,
+        "count": 18,
+        "pos_count": 14,
+        "neg_count": 4
+      }
+    }
+  },
+  "B09MTK1TM5": {
+    "brand": "PUMA",
+    "product_title": "PUMA Women’s Carina Sneaker",
+    "avg_rating": 3.97,
+    "review_count": 310,
+    "scores": {
+      "comfort": {
+        "score": 7.33,
+        "count": 202,
+        "pos_count": 148,
+        "neg_count": 54
+      },
+      "design": {
+        "score": 9.42,
+        "count": 103,
+        "pos_count": 97,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 3.39,
+        "count": 189,
+        "pos_count": 64,
+        "neg_count": 125
+      },
+      "durability": {
+        "score": 2.22,
+        "count": 54,
+        "pos_count": 12,
+        "neg_count": 42
+      },
+      "price": {
+        "score": 7.5,
+        "count": 16,
+        "pos_count": 12,
+        "neg_count": 4
+      }
+    }
+  },
+  "B09NQSJC32": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's CloudSteppers Sillian Paz Slip-On Loafer",
+    "avg_rating": 3.76,
+    "review_count": 308,
+    "scores": {
+      "comfort": {
+        "score": 7.72,
+        "count": 272,
+        "pos_count": 210,
+        "neg_count": 62
+      },
+      "design": {
+        "score": 7.14,
+        "count": 42,
+        "pos_count": 30,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 2.89,
+        "count": 166,
+        "pos_count": 48,
+        "neg_count": 118
+      },
+      "durability": {
+        "score": 3.4,
+        "count": 47,
+        "pos_count": 16,
+        "neg_count": 31
+      },
+      "price": {
+        "score": 7.62,
+        "count": 21,
+        "pos_count": 16,
+        "neg_count": 5
+      }
+    }
+  },
+  "B09Y2TYH71": {
+    "brand": "adidas",
+    "product_title": "adidas Women's Adilette Comfort Slides Sandal",
+    "avg_rating": 4.14,
+    "review_count": 306,
+    "scores": {
+      "comfort": {
+        "score": 8.71,
+        "count": 255,
+        "pos_count": 222,
+        "neg_count": 33
+      },
+      "design": {
+        "score": 8.47,
+        "count": 59,
+        "pos_count": 50,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 4.07,
+        "count": 194,
+        "pos_count": 79,
+        "neg_count": 115
+      },
+      "durability": {
+        "score": 3.26,
+        "count": 43,
+        "pos_count": 14,
+        "neg_count": 29
+      },
+      "price": {
+        "score": 8.18,
+        "count": 11,
+        "pos_count": 9,
+        "neg_count": 2
+      }
+    }
+  },
+  "B09YK6XZFZ": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Literide Pacer Lace-up Sneakers",
+    "avg_rating": 4.23,
+    "review_count": 321,
+    "scores": {
+      "comfort": {
+        "score": 7.76,
+        "count": 362,
+        "pos_count": 281,
+        "neg_count": 81
+      },
+      "design": {
+        "score": 8.62,
+        "count": 65,
+        "pos_count": 56,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 4.63,
+        "count": 108,
+        "pos_count": 50,
+        "neg_count": 58
+      },
+      "durability": {
+        "score": 5.47,
+        "count": 64,
+        "pos_count": 35,
+        "neg_count": 29
+      },
+      "price": {
+        "score": 7.5,
+        "count": 8,
+        "pos_count": 6,
+        "neg_count": 2
+      }
+    }
+  },
+  "B0B66LGD55": {
+    "brand": "adidas",
+    "product_title": "adidas Men's Adilette Comfort Slides Sandal",
+    "avg_rating": 4.02,
+    "review_count": 257,
+    "scores": {
+      "comfort": {
+        "score": 7.98,
+        "count": 223,
+        "pos_count": 178,
+        "neg_count": 45
+      },
+      "design": {
+        "score": 7.0,
+        "count": 30,
+        "pos_count": 21,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 3.06,
+        "count": 121,
+        "pos_count": 37,
+        "neg_count": 84
+      },
+      "durability": {
+        "score": 3.47,
+        "count": 49,
+        "pos_count": 17,
+        "neg_count": 32
+      },
+      "price": {
+        "score": 8.33,
+        "count": 12,
+        "pos_count": 10,
+        "neg_count": 2
+      }
+    }
+  },
+  "B09ZXT2VLV": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Kadee Ii Sandals",
+    "avg_rating": 3.41,
+    "review_count": 317,
+    "scores": {
+      "comfort": {
+        "score": 6.21,
+        "count": 214,
+        "pos_count": 133,
+        "neg_count": 81
+      },
+      "design": {
+        "score": 6.41,
+        "count": 78,
+        "pos_count": 50,
+        "neg_count": 28
+      },
+      "size": {
+        "score": 2.65,
+        "count": 162,
+        "pos_count": 43,
+        "neg_count": 119
+      },
+      "durability": {
+        "score": 1.82,
+        "count": 55,
+        "pos_count": 10,
+        "neg_count": 45
+      },
+      "price": {
+        "score": 6.47,
+        "count": 17,
+        "pos_count": 11,
+        "neg_count": 6
+      }
+    }
+  },
+  "B0BDWCFC5M": {
+    "brand": "Clarks",
+    "product_title": "Clarks Women's Annadel Ivory Wedge Sandal",
+    "avg_rating": 4.41,
+    "review_count": 250,
+    "scores": {
+      "comfort": {
+        "score": 9.58,
+        "count": 216,
+        "pos_count": 207,
+        "neg_count": 9
+      },
+      "design": {
+        "score": 9.01,
+        "count": 71,
+        "pos_count": 64,
+        "neg_count": 7
+      },
+      "size": {
+        "score": 3.15,
+        "count": 127,
+        "pos_count": 40,
+        "neg_count": 87
+      },
+      "durability": {
+        "score": 4.5,
+        "count": 20,
+        "pos_count": 9,
+        "neg_count": 11
+      },
+      "price": {
+        "score": 8.0,
+        "count": 10,
+        "pos_count": 8,
+        "neg_count": 2
+      }
+    }
+  },
+  "B0BGCNKPMX": {
+    "brand": "adidas",
+    "product_title": "adidas Women's Adilette Sandal Slide",
+    "avg_rating": 4.54,
+    "review_count": 218,
+    "scores": {
+      "comfort": {
+        "score": 8.52,
+        "count": 182,
+        "pos_count": 155,
+        "neg_count": 27
+      },
+      "design": {
+        "score": 8.91,
+        "count": 55,
+        "pos_count": 49,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 6.25,
+        "count": 120,
+        "pos_count": 75,
+        "neg_count": 45
+      },
+      "durability": {
+        "score": 4.78,
+        "count": 23,
+        "pos_count": 11,
+        "neg_count": 12
+      },
+      "price": {
+        "score": 10.0,
+        "count": 8,
+        "pos_count": 8,
+        "neg_count": 0
+      }
+    }
+  },
+  "B0BFS4M54V": {
+    "brand": "PUMA",
+    "product_title": "PUMA Men's Tazon 6 Sneaker",
+    "avg_rating": 3.23,
+    "review_count": 254,
+    "scores": {
+      "comfort": {
+        "score": 5.98,
+        "count": 169,
+        "pos_count": 101,
+        "neg_count": 68
+      },
+      "design": {
+        "score": 7.58,
+        "count": 66,
+        "pos_count": 50,
+        "neg_count": 16
+      },
+      "size": {
+        "score": 4.82,
+        "count": 83,
+        "pos_count": 40,
+        "neg_count": 43
+      },
+      "durability": {
+        "score": 1.82,
+        "count": 132,
+        "pos_count": 24,
+        "neg_count": 108
+      },
+      "price": {
+        "score": 8.26,
+        "count": 23,
+        "pos_count": 19,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0BQ2LD658": {
+    "brand": "NINE WEST",
+    "product_title": "NINE WEST Women's Tatiana Dress Pump",
+    "avg_rating": 3.31,
+    "review_count": 100,
+    "scores": {
+      "comfort": {
+        "score": 6.53,
+        "count": 49,
+        "pos_count": 32,
+        "neg_count": 17
+      },
+      "design": {
+        "score": 9.47,
+        "count": 19,
+        "pos_count": 18,
+        "neg_count": 1
+      },
+      "size": {
+        "score": 1.91,
+        "count": 47,
+        "pos_count": 9,
+        "neg_count": 38
+      },
+      "durability": {
+        "score": 1.07,
+        "count": 28,
+        "pos_count": 3,
+        "neg_count": 25
+      },
+      "price": {
+        "score": 10.0,
+        "count": 3,
+        "pos_count": 3,
+        "neg_count": 0
+      }
+    }
+  },
+  "B0BWJSR3JC": {
+    "brand": "PUMA",
+    "product_title": "PUMA Women's Cali Sneaker",
+    "avg_rating": 4.24,
+    "review_count": 219,
+    "scores": {
+      "comfort": {
+        "score": 5.98,
+        "count": 132,
+        "pos_count": 79,
+        "neg_count": 53
+      },
+      "design": {
+        "score": 9.76,
+        "count": 123,
+        "pos_count": 120,
+        "neg_count": 3
+      },
+      "size": {
+        "score": 4.89,
+        "count": 141,
+        "pos_count": 69,
+        "neg_count": 72
+      },
+      "durability": {
+        "score": 4.81,
+        "count": 27,
+        "pos_count": 13,
+        "neg_count": 14
+      },
+      "price": {
+        "score": 4.55,
+        "count": 11,
+        "pos_count": 5,
+        "neg_count": 6
+      }
+    }
+  },
+  "B0BVGNVSNH": {
+    "brand": "KEEN",
+    "product_title": "KEEN Women's Targhee 2 Mid Height Waterproof",
+    "avg_rating": 4.3,
+    "review_count": 353,
+    "scores": {
+      "comfort": {
+        "score": 8.78,
+        "count": 328,
+        "pos_count": 288,
+        "neg_count": 40
+      },
+      "design": {
+        "score": 7.08,
+        "count": 48,
+        "pos_count": 34,
+        "neg_count": 14
+      },
+      "size": {
+        "score": 6.23,
+        "count": 146,
+        "pos_count": 91,
+        "neg_count": 55
+      },
+      "durability": {
+        "score": 5.16,
+        "count": 126,
+        "pos_count": 65,
+        "neg_count": 61
+      },
+      "price": {
+        "score": 5.45,
+        "count": 33,
+        "pos_count": 18,
+        "neg_count": 15
+      }
+    }
+  },
+  "B0BXDZRS48": {
+    "brand": "KEEN",
+    "product_title": "KEEN Women's Elle Backstrap Casual Platform Open Toe Wedge Sandals",
+    "avg_rating": 4.42,
+    "review_count": 266,
+    "scores": {
+      "comfort": {
+        "score": 8.6,
+        "count": 271,
+        "pos_count": 233,
+        "neg_count": 38
+      },
+      "design": {
+        "score": 8.42,
+        "count": 101,
+        "pos_count": 85,
+        "neg_count": 16
+      },
+      "size": {
+        "score": 5.54,
+        "count": 92,
+        "pos_count": 51,
+        "neg_count": 41
+      },
+      "durability": {
+        "score": 5.41,
+        "count": 37,
+        "pos_count": 20,
+        "neg_count": 17
+      },
+      "price": {
+        "score": 5.62,
+        "count": 16,
+        "pos_count": 9,
+        "neg_count": 7
+      }
+    }
+  },
+  "B0BYDTRBWL": {
+    "brand": "Skechers",
+    "product_title": "Skechers Men's Go Walk Evolution Ultra-Impeccable Sneaker",
+    "avg_rating": 4.23,
+    "review_count": 311,
+    "scores": {
+      "comfort": {
+        "score": 8.65,
+        "count": 311,
+        "pos_count": 269,
+        "neg_count": 42
+      },
+      "design": {
+        "score": 6.52,
+        "count": 46,
+        "pos_count": 30,
+        "neg_count": 16
+      },
+      "size": {
+        "score": 5.58,
+        "count": 129,
+        "pos_count": 72,
+        "neg_count": 57
+      },
+      "durability": {
+        "score": 3.46,
+        "count": 78,
+        "pos_count": 27,
+        "neg_count": 51
+      },
+      "price": {
+        "score": 7.93,
+        "count": 29,
+        "pos_count": 23,
+        "neg_count": 6
+      }
+    }
+  },
+  "B0C24CD7X5": {
+    "brand": "KEEN",
+    "product_title": "KEEN Women's Presidio Leather Low Height Oxford",
+    "avg_rating": 3.89,
+    "review_count": 340,
+    "scores": {
+      "comfort": {
+        "score": 7.15,
+        "count": 305,
+        "pos_count": 218,
+        "neg_count": 87
+      },
+      "design": {
+        "score": 6.11,
+        "count": 72,
+        "pos_count": 44,
+        "neg_count": 28
+      },
+      "size": {
+        "score": 4.55,
+        "count": 132,
+        "pos_count": 60,
+        "neg_count": 72
+      },
+      "durability": {
+        "score": 3.76,
+        "count": 101,
+        "pos_count": 38,
+        "neg_count": 63
+      },
+      "price": {
+        "score": 4.0,
+        "count": 15,
+        "pos_count": 6,
+        "neg_count": 9
+      }
+    }
+  },
+  "B0C4WPWWPV": {
+    "brand": "adidas",
+    "product_title": "adidas Women's Cloudfoam Pure Running Shoe",
+    "avg_rating": 3.78,
+    "review_count": 288,
+    "scores": {
+      "comfort": {
+        "score": 6.95,
+        "count": 269,
+        "pos_count": 187,
+        "neg_count": 82
+      },
+      "design": {
+        "score": 8.52,
+        "count": 81,
+        "pos_count": 69,
+        "neg_count": 12
+      },
+      "size": {
+        "score": 4.15,
+        "count": 130,
+        "pos_count": 54,
+        "neg_count": 76
+      },
+      "durability": {
+        "score": 2.56,
+        "count": 43,
+        "pos_count": 11,
+        "neg_count": 32
+      },
+      "price": {
+        "score": 6.11,
+        "count": 18,
+        "pos_count": 11,
+        "neg_count": 7
+      }
+    }
+  },
+  "B0C2VWZ2YL": {
+    "brand": "Crocs",
+    "product_title": "Crocs Women's Brooklyn Low Wedges, Multicolor Navy Stucco, 9 us",
+    "avg_rating": 4.36,
+    "review_count": 315,
+    "scores": {
+      "comfort": {
+        "score": 9.09,
+        "count": 276,
+        "pos_count": 251,
+        "neg_count": 25
+      },
+      "design": {
+        "score": 9.17,
+        "count": 109,
+        "pos_count": 100,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 4.38,
+        "count": 169,
+        "pos_count": 74,
+        "neg_count": 95
+      },
+      "durability": {
+        "score": 2.73,
+        "count": 44,
+        "pos_count": 12,
+        "neg_count": 32
+      },
+      "price": {
+        "score": 7.14,
+        "count": 14,
+        "pos_count": 10,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0C4YJGPTQ": {
+    "brand": "adidas",
+    "product_title": "adidas Women's Cloudfoam Pure 2.0 Running Shoe",
+    "avg_rating": 3.81,
+    "review_count": 347,
+    "scores": {
+      "comfort": {
+        "score": 7.09,
+        "count": 320,
+        "pos_count": 227,
+        "neg_count": 93
+      },
+      "design": {
+        "score": 7.86,
+        "count": 98,
+        "pos_count": 77,
+        "neg_count": 21
+      },
+      "size": {
+        "score": 3.51,
+        "count": 148,
+        "pos_count": 52,
+        "neg_count": 96
+      },
+      "durability": {
+        "score": 2.33,
+        "count": 60,
+        "pos_count": 14,
+        "neg_count": 46
+      },
+      "price": {
+        "score": 6.09,
+        "count": 23,
+        "pos_count": 14,
+        "neg_count": 9
+      }
+    }
+  },
+  "B0C62LHC1S": {
+    "brand": "KEEN",
+    "product_title": "KEEN Men's Newport Closed Toe Leather Sandals",
+    "avg_rating": 4.29,
+    "review_count": 279,
+    "scores": {
+      "comfort": {
+        "score": 8.07,
+        "count": 166,
+        "pos_count": 134,
+        "neg_count": 32
+      },
+      "design": {
+        "score": 8.33,
+        "count": 36,
+        "pos_count": 30,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 4.05,
+        "count": 126,
+        "pos_count": 51,
+        "neg_count": 75
+      },
+      "durability": {
+        "score": 8.12,
+        "count": 117,
+        "pos_count": 95,
+        "neg_count": 22
+      },
+      "price": {
+        "score": 8.0,
+        "count": 20,
+        "pos_count": 16,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0C5QY3SNR": {
+    "brand": "KEEN",
+    "product_title": "KEEN Men's Targhee 2 Low Height Waterproof Hiking Shoes",
+    "avg_rating": 3.37,
+    "review_count": 341,
+    "scores": {
+      "comfort": {
+        "score": 7.07,
+        "count": 215,
+        "pos_count": 152,
+        "neg_count": 63
+      },
+      "design": {
+        "score": 7.57,
+        "count": 37,
+        "pos_count": 28,
+        "neg_count": 9
+      },
+      "size": {
+        "score": 3.24,
+        "count": 142,
+        "pos_count": 46,
+        "neg_count": 96
+      },
+      "durability": {
+        "score": 3.23,
+        "count": 167,
+        "pos_count": 54,
+        "neg_count": 113
+      },
+      "price": {
+        "score": 3.33,
+        "count": 27,
+        "pos_count": 9,
+        "neg_count": 18
+      }
+    }
+  },
+  "B0C62MF2HV": {
+    "brand": "adidas",
+    "product_title": "adidas unisex adult Adilette Clog Slide Sandal, Pink Tint/White/Pink Tint, 12 Women Men US",
+    "avg_rating": 4.2,
+    "review_count": 238,
+    "scores": {
+      "comfort": {
+        "score": 7.31,
+        "count": 171,
+        "pos_count": 125,
+        "neg_count": 46
+      },
+      "design": {
+        "score": 9.25,
+        "count": 53,
+        "pos_count": 49,
+        "neg_count": 4
+      },
+      "size": {
+        "score": 2.98,
+        "count": 114,
+        "pos_count": 34,
+        "neg_count": 80
+      },
+      "durability": {
+        "score": 6.4,
+        "count": 25,
+        "pos_count": 16,
+        "neg_count": 9
+      },
+      "price": {
+        "score": 6.36,
+        "count": 11,
+        "pos_count": 7,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0C62ZHD82": {
+    "brand": "KEEN",
+    "product_title": "KEEN Men's Arroyo 2 Closed Toe Hiking Sandals",
+    "avg_rating": 4.16,
+    "review_count": 298,
+    "scores": {
+      "comfort": {
+        "score": 8.18,
+        "count": 209,
+        "pos_count": 171,
+        "neg_count": 38
+      },
+      "design": {
+        "score": 6.74,
+        "count": 46,
+        "pos_count": 31,
+        "neg_count": 15
+      },
+      "size": {
+        "score": 4.04,
+        "count": 104,
+        "pos_count": 42,
+        "neg_count": 62
+      },
+      "durability": {
+        "score": 6.02,
+        "count": 123,
+        "pos_count": 74,
+        "neg_count": 49
+      },
+      "price": {
+        "score": 7.89,
+        "count": 19,
+        "pos_count": 15,
+        "neg_count": 4
+      }
+    }
+  },
+  "B0C68WVRD1": {
+    "brand": "Crocs",
+    "product_title": "Crocs unisex-adult Bisto Clog",
+    "avg_rating": 3.98,
+    "review_count": 342,
+    "scores": {
+      "comfort": {
+        "score": 7.27,
+        "count": 315,
+        "pos_count": 229,
+        "neg_count": 86
+      },
+      "design": {
+        "score": 5.92,
+        "count": 49,
+        "pos_count": 29,
+        "neg_count": 20
+      },
+      "size": {
+        "score": 3.58,
+        "count": 148,
+        "pos_count": 53,
+        "neg_count": 95
+      },
+      "durability": {
+        "score": 5.85,
+        "count": 94,
+        "pos_count": 55,
+        "neg_count": 39
+      },
+      "price": {
+        "score": 8.57,
+        "count": 21,
+        "pos_count": 18,
+        "neg_count": 3
+      }
+    }
+  },
+  "B0C6ZX92R4": {
+    "brand": "Merrell",
+    "product_title": "Merrell Women's MOAB 2 WTPF Hiking Shoe",
+    "avg_rating": 4.1,
+    "review_count": 358,
+    "scores": {
+      "comfort": {
+        "score": 7.48,
+        "count": 353,
+        "pos_count": 264,
+        "neg_count": 89
+      },
+      "design": {
+        "score": 8.24,
+        "count": 34,
+        "pos_count": 28,
+        "neg_count": 6
+      },
+      "size": {
+        "score": 4.69,
+        "count": 175,
+        "pos_count": 82,
+        "neg_count": 93
+      },
+      "durability": {
+        "score": 6.58,
+        "count": 120,
+        "pos_count": 79,
+        "neg_count": 41
+      },
+      "price": {
+        "score": 7.78,
+        "count": 18,
+        "pos_count": 14,
+        "neg_count": 4
+      }
+    }
+  },
+  "B01N2GM1SM": {
+    "brand": "Merrell",
+    "product_title": "Merrell Women's Siren Edge Hiker",
+    "avg_rating": 4.22,
+    "review_count": 312,
+    "scores": {
+      "comfort": {
+        "score": 7.99,
+        "count": 293,
+        "pos_count": 234,
+        "neg_count": 59
+      },
+      "design": {
+        "score": 8.89,
+        "count": 72,
+        "pos_count": 64,
+        "neg_count": 8
+      },
+      "size": {
+        "score": 5.82,
+        "count": 134,
+        "pos_count": 78,
+        "neg_count": 56
+      },
+      "durability": {
+        "score": 5.59,
+        "count": 102,
+        "pos_count": 57,
+        "neg_count": 45
+      },
+      "price": {
+        "score": 7.86,
+        "count": 14,
+        "pos_count": 11,
+        "neg_count": 3
+      }
+    }
+  },
+  "B07TGF2MXC": {
+    "brand": "adidas",
+    "product_title": "adidas Unisex-Adult Adilette Slide Sandal",
+    "avg_rating": 4.22,
+    "review_count": 236,
+    "scores": {
+      "comfort": {
+        "score": 8.33,
+        "count": 209,
+        "pos_count": 174,
+        "neg_count": 35
+      },
+      "design": {
+        "score": 7.83,
+        "count": 46,
+        "pos_count": 36,
+        "neg_count": 10
+      },
+      "size": {
+        "score": 3.68,
+        "count": 106,
+        "pos_count": 39,
+        "neg_count": 67
+      },
+      "durability": {
+        "score": 4.79,
+        "count": 48,
+        "pos_count": 23,
+        "neg_count": 25
+      },
+      "price": {
+        "score": 6.5,
+        "count": 20,
+        "pos_count": 13,
+        "neg_count": 7
+      }
+    }
+  },
+  "B0BW3LW16Y": {
+    "brand": "Crocs",
+    "product_title": "Crocs Unisex-Child Classic Clogs, Pink Lemonade, 5 Big Kid",
+    "avg_rating": 4.34,
+    "review_count": 291,
+    "scores": {
+      "comfort": {
+        "score": 8.77,
+        "count": 114,
+        "pos_count": 100,
+        "neg_count": 14
+      },
+      "design": {
+        "score": 7.83,
+        "count": 60,
+        "pos_count": 47,
+        "neg_count": 13
+      },
+      "size": {
+        "score": 5.03,
+        "count": 181,
+        "pos_count": 91,
+        "neg_count": 90
+      },
+      "durability": {
+        "score": 7.06,
+        "count": 51,
+        "pos_count": 36,
+        "neg_count": 15
+      },
+      "price": {
+        "score": 7.22,
+        "count": 18,
+        "pos_count": 13,
+        "neg_count": 5
+      }
+    }
+  },
+  "B0BH4MTFCY": {
+    "brand": "PUMA",
+    "product_title": "PUMA Women's Prowl Slip on Sneaker",
+    "avg_rating": 4.31,
+    "review_count": 198,
+    "scores": {
+      "comfort": {
+        "score": 8.29,
+        "count": 158,
+        "pos_count": 131,
+        "neg_count": 27
+      },
+      "design": {
+        "score": 9.05,
+        "count": 42,
+        "pos_count": 38,
+        "neg_count": 4
+      },
+      "size": {
+        "score": 5.41,
+        "count": 74,
+        "pos_count": 40,
+        "neg_count": 34
+      },
+      "durability": {
+        "score": 2.65,
+        "count": 34,
+        "pos_count": 9,
+        "neg_count": 25
+      },
+      "price": {
+        "score": 7.5,
+        "count": 8,
+        "pos_count": 6,
+        "neg_count": 2
+      }
+    }
+  }
+}
