@@ -6,14 +6,25 @@
 
 ```
 Review-Consultant-AI/
-├── api_server.py      ← Flask 백엔드 (OpenAI API 호출)
-├── index.html         ← React 프론트엔드 (단일 파일)
-├── .env.example       ← 환경변수 템플릿 (복사 후 .env로 사용)
+├── backend/
+│   ├── api_server.py       ← Flask 백엔드 (OpenAI API 호출)
+│   ├── requirements.txt
+│   ├── .env.example       ← 환경변수 템플릿 (복사 후 .env로 사용)
+│   └── shoes_data/
+│       ├── llm_scores_by_product.json
+│       └── llm_sentences.json
+│
+├── frontend/
+│   ├── index.html           ← React 프론트엔드 (단일 파일)
+│   ├── package.json
+│   ├── vite.config.js
+│   └── src/
+│       ├── main.js
+│       ├── App.js
+│       └── App.css
+│
 ├── .gitignore
-├── requirements.txt
-└── shoes_data/
-    ├── llm_scores_by_product.json
-    └── llm_sentences.json
+└── README.md
 ```
 
 ## 시작하기
